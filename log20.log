@@ -1,0 +1,1052 @@
+Devices creation
+IP addresses and stacks
+Applications on nodes
+Link 1 : node 0 send information to 1
+	Client 10.0.0.1 (0) sends information to 10.0.0.2 (1) (start time = 1 s)
++AtApp 1 packet 0 sent (0->1), dist: 4 relSpeed: 0 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 1 CalcRxPower ran for packet 1 (0->ff:ff:ff:ff:ff:ff) Pos(0)(2500:0:1.5) txPower: 21.0394 size: 64 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 1.00014 on node ff:ff:ff:ff:ff:ff payload of packet 1 (0->1), dist: 4 decoded successfully txPower: 21.0394 rxPower: -38.8666 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 64
+PhySimWifiUniformChannel::Send: +AtPhy 1.00019 CalcRxPower ran for packet 2 (1->0) Pos(1)(2500:4:1.5) Pos(0)(2500:0:1.5) txPower: 21.0231 rxPower: -38.8829 dist: 4 relSpeed: 0 size: 64 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 1.00033 on node 0 payload of packet 2 (1->0), dist: 4 decoded successfully txPower: 21.0231 rxPower: -38.8829 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 64
+PhySimWifiUniformChannel::Send: +AtPhy 1.00036 CalcRxPower ran for packet 3 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 20.9545 rxPower: -38.9515 dist: 4 relSpeed: 0 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 1.00045 on node 1 payload of packet 3 (0->1), dist: 4 decoded successfully txPower: 20.9545 rxPower: -38.9515 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 14
+PhySimWifiUniformChannel::Send: +AtPhy 1.00057 CalcRxPower ran for packet 0 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 20.9695 rxPower: -38.9365 dist: 4 relSpeed: 0 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 1.00105 on node 1 payload of packet 0 (0->1), dist: 4 decoded successfully txPower: 20.9695 rxPower: -38.9365 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 320
+-AtApp 1.00105 Node 1 packet 0 received from node 0 (distance = 4 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -38.9365 dB Tx Power: 20.9695 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 1.00108 CalcRxPower ran for packet 4 (1->0) Pos(1)(2500:4:1.5) Pos(0)(2500:0:1.5) txPower: 20.9137 rxPower: -38.9923 dist: 4 relSpeed: 0 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 1.00117 on node 0 payload of packet 4 (1->0), dist: 4 decoded successfully txPower: 20.9137 rxPower: -38.9923 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 14
++AtApp 2 packet 5 sent (0->1), dist: 4 relSpeed: 0 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 2 CalcRxPower ran for packet 5 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 21.0013 rxPower: -38.9047 dist: 4 relSpeed: 0 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 2.00047 on node 1 payload of packet 5 (0->1), dist: 4 decoded successfully txPower: 21.0013 rxPower: -38.9047 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 320
+-AtApp 2.00047 Node 1 packet 5 received from node 0 (distance = 4 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -38.9047 dB Tx Power: 21.0013 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 2.0005 CalcRxPower ran for packet 6 (1->0) Pos(1)(2500:4:1.5) Pos(0)(2500:0:1.5) txPower: 20.9537 rxPower: -38.9524 dist: 4 relSpeed: 0 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 2.00059 on node 0 payload of packet 6 (1->0), dist: 4 decoded successfully txPower: 20.9537 rxPower: -38.9524 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 14
++AtApp 3 packet 7 sent (0->1), dist: 4 relSpeed: 0 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 3 CalcRxPower ran for packet 7 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 20.9732 rxPower: -38.9328 dist: 4 relSpeed: 0 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 3.00047 on node 1 payload of packet 7 (0->1), dist: 4 decoded successfully txPower: 20.9732 rxPower: -38.9328 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 320
+-AtApp 3.00047 Node 1 packet 7 received from node 0 (distance = 4 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -38.9328 dB Tx Power: 20.9732 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 3.0005 CalcRxPower ran for packet 8 (1->0) Pos(1)(2500:4:1.5) Pos(0)(2500:0:1.5) txPower: 21.0103 rxPower: -38.8957 dist: 4 relSpeed: 0 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 3.00059 on node 0 payload of packet 8 (1->0), dist: 4 decoded successfully txPower: 21.0103 rxPower: -38.8957 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 14
++AtApp 4 packet 9 sent (0->1), dist: 4 relSpeed: 0 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 4 CalcRxPower ran for packet 9 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 20.9628 rxPower: -38.9432 dist: 4 relSpeed: 0 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 4.00047 on node 1 payload of packet 9 (0->1), dist: 4 decoded successfully txPower: 20.9628 rxPower: -38.9432 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 320
+-AtApp 4.00047 Node 1 packet 9 received from node 0 (distance = 4 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -38.9432 dB Tx Power: 20.9628 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 4.0005 CalcRxPower ran for packet 10 (1->0) Pos(1)(2500:4:1.5) Pos(0)(2500:0:1.5) txPower: 20.9881 rxPower: -38.9179 dist: 4 relSpeed: 0 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 4.00059 on node 0 payload of packet 10 (1->0), dist: 4 decoded successfully txPower: 20.9881 rxPower: -38.9179 Snr: -1 TeB: 0 relativeSpeed: 0 packetSizePhy: 14
++AtApp 5 packet 11 sent (0->1), dist: 4 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 5 CalcRxPower ran for packet 11 (0->1) Pos(0)(2500:0:1.5) Pos(1)(2500:4:1.5) txPower: 20.9741 rxPower: -38.9319 dist: 4 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 5.00047 on node 1 payload of packet 11 (0->1), dist: 4 decoded successfully txPower: 20.9741 rxPower: -38.9319 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 5.00047 Node 1 packet 11 received from node 0 (distance = 4 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -38.9319 dB Tx Power: 20.9741 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 5.0005 CalcRxPower ran for packet 12 (1->0) Pos(1)(2499.99:4:1.5) Pos(0)(2500.01:0:1.5) txPower: 21.0254 rxPower: -38.8806 dist: 4.00002 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 5.00059 on node 0 payload of packet 12 (1->0), dist: 4.12311 decoded successfully txPower: 21.0254 rxPower: -38.8806 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 6 packet 13 sent (0->1), dist: 28.0665 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 6 CalcRxPower ran for packet 13 (0->1) Pos(0)(2513.89:0:1.5) Pos(1)(2486.11:4:1.5) txPower: 20.9715 rxPower: -55.8571 dist: 28.0665 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 6.00047 on node 1 payload of packet 13 (0->1), dist: 27.2947 decoded successfully txPower: 20.9715 rxPower: -55.8571 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 6.00047 Node 1 packet 13 received from node 0 (distance = 27.2947 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -55.8571 dB Tx Power: 20.9715 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 6.0005 CalcRxPower ran for packet 14 (1->0) Pos(1)(2486.1:4:1.5) Pos(0)(2513.9:0:1.5) txPower: 20.9538 rxPower: -55.8791 dist: 28.0804 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 6.00059 on node 0 payload of packet 14 (1->0), dist: 27.2947 decoded successfully txPower: 20.9538 rxPower: -55.8791 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 7 packet 15 sent (0->1), dist: 55.7038 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 7 CalcRxPower ran for packet 15 (0->1) Pos(0)(2527.78:0:1.5) Pos(1)(2472.22:4:1.5) txPower: 20.9907 rxPower: -61.7918 dist: 55.7038 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 7.00047 on node 1 payload of packet 15 (0->1), dist: 55.1453 decoded successfully txPower: 20.9907 rxPower: -61.7918 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 7.00047 Node 1 packet 15 received from node 0 (distance = 55.1453 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -61.7918 dB Tx Power: 20.9907 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 7.0005 CalcRxPower ran for packet 16 (1->0) Pos(1)(2472.21:4:1.5) Pos(0)(2527.79:0:1.5) txPower: 20.9368 rxPower: -61.8479 dist: 55.7178 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 7.00059 on node 0 payload of packet 16 (1->0), dist: 55.1453 decoded successfully txPower: 20.9368 rxPower: -61.8479 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 8 packet 17 sent (0->1), dist: 83.4359 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 8 CalcRxPower ran for packet 17 (0->1) Pos(0)(2541.67:0:1.5) Pos(1)(2458.33:4:1.5) txPower: 20.9702 rxPower: -65.3217 dist: 83.4359 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 8.00047 on node 1 payload of packet 17 (0->1), dist: 83.0963 decoded successfully txPower: 20.9702 rxPower: -65.3217 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 8.00047 Node 1 packet 17 received from node 0 (distance = 83.0963 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -65.3217 dB Tx Power: 20.9702 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 8.0005 CalcRxPower ran for packet 18 (1->0) Pos(1)(2458.32:4:1.5) Pos(0)(2541.68:0:1.5) txPower: 20.9872 rxPower: -65.3061 dist: 83.4499 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 8.00059 on node 0 payload of packet 18 (1->0), dist: 83.0963 decoded successfully txPower: 20.9872 rxPower: -65.3061 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 9 packet 19 sent (0->1), dist: 111.192 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 9 CalcRxPower ran for packet 19 (0->1) Pos(0)(2555.56:0:1.5) Pos(1)(2444.44:4:1.5) txPower: 20.9654 rxPower: -67.8209 dist: 111.192 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 9.00047 on node 1 payload of packet 19 (0->1), dist: 111.072 decoded successfully txPower: 20.9654 rxPower: -67.8209 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 9.00047 Node 1 packet 19 received from node 0 (distance = 111.072 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -67.8209 dB Tx Power: 20.9654 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 9.0005 CalcRxPower ran for packet 20 (1->0) Pos(1)(2444.43:4:1.5) Pos(0)(2555.57:0:1.5) txPower: 21.0033 rxPower: -67.7841 dist: 111.206 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 9.00059 on node 0 payload of packet 20 (1->0), dist: 111.072 decoded successfully txPower: 21.0033 rxPower: -67.7841 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 10 packet 21 sent (0->1), dist: 138.958 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 10 CalcRxPower ran for packet 21 (0->1) Pos(0)(2569.45:0:1.5) Pos(1)(2430.55:4:1.5) txPower: 20.9364 rxPower: -69.786 dist: 138.958 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 10.0005 on node 1 payload of packet 21 (0->1), dist: 139.058 decoded successfully txPower: 20.9364 rxPower: -69.786 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 10.0005 Node 1 packet 21 received from node 0 (distance = 139.058 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -69.786 dB Tx Power: 20.9364 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 10.0005 CalcRxPower ran for packet 22 (1->0) Pos(1)(2430.54:4:1.5) Pos(0)(2569.46:0:1.5) txPower: 20.9599 rxPower: -69.7635 dist: 138.972 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 10.0006 on node 0 payload of packet 22 (1->0), dist: 139.058 decoded successfully txPower: 20.9599 rxPower: -69.7635 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 11 packet 23 sent (0->1), dist: 166.728 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 11 CalcRxPower ran for packet 23 (0->1) Pos(0)(2583.34:0:1.5) Pos(1)(2416.66:4:1.5) txPower: 20.946 rxPower: -71.359 dist: 166.728 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 11.0005 on node 1 payload of packet 23 (0->1), dist: 167.048 decoded successfully txPower: 20.946 rxPower: -71.359 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 11.0005 Node 1 packet 23 received from node 0 (distance = 167.048 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -71.359 dB Tx Power: 20.946 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 11.0005 CalcRxPower ran for packet 24 (1->0) Pos(1)(2416.65:4:1.5) Pos(0)(2583.35:0:1.5) txPower: 20.9884 rxPower: -71.3173 dist: 166.742 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 11.0006 on node 0 payload of packet 24 (1->0), dist: 167.048 decoded successfully txPower: 20.9884 rxPower: -71.3173 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 12 packet 25 sent (0->1), dist: 194.501 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 12 CalcRxPower ran for packet 25 (0->1) Pos(0)(2597.23:0:1.5) Pos(1)(2402.77:4:1.5) txPower: 20.9742 rxPower: -72.669 dist: 194.501 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 12.0005 on node 1 payload of packet 25 (0->1), dist: 195.041 decoded successfully txPower: 20.9742 rxPower: -72.669 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 12.0005 Node 1 packet 25 received from node 0 (distance = 195.041 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -72.669 dB Tx Power: 20.9742 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 12.0005 CalcRxPower ran for packet 26 (1->0) Pos(1)(2402.76:4:1.5) Pos(0)(2597.24:0:1.5) txPower: 20.9538 rxPower: -72.6901 dist: 194.515 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 12.0006 on node 0 payload of packet 26 (1->0), dist: 195.041 decoded successfully txPower: 20.9538 rxPower: -72.6901 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 13 packet 27 sent (0->1), dist: 222.276 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 13 CalcRxPower ran for packet 27 (0->1) Pos(0)(2611.12:0:1.5) Pos(1)(2388.88:4:1.5) txPower: 20.963 rxPower: -73.8396 dist: 222.276 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 13.0005 on node 1 payload of packet 27 (0->1), dist: 223.036 decoded successfully txPower: 20.963 rxPower: -73.8396 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 13.0005 Node 1 packet 27 received from node 0 (distance = 223.036 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -73.8396 dB Tx Power: 20.963 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 13.0005 CalcRxPower ran for packet 28 (1->0) Pos(1)(2388.87:4:1.5) Pos(0)(2611.13:0:1.5) txPower: 20.9771 rxPower: -73.8261 dist: 222.29 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 13.0006 on node 0 payload of packet 28 (1->0), dist: 223.036 decoded successfully txPower: 20.9771 rxPower: -73.8261 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 14 packet 29 sent (0->1), dist: 250.052 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 14 CalcRxPower ran for packet 29 (0->1) Pos(0)(2625.01:0:1.5) Pos(1)(2374.99:4:1.5) txPower: 20.9562 rxPower: -74.8692 dist: 250.052 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 14.0005 on node 1 payload of packet 29 (0->1), dist: 251.032 decoded successfully txPower: 20.9562 rxPower: -74.8692 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 14.0005 Node 1 packet 29 received from node 0 (distance = 251.032 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -74.8692 dB Tx Power: 20.9562 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 14.0005 CalcRxPower ran for packet 30 (1->0) Pos(1)(2374.98:4:1.5) Pos(0)(2625.02:0:1.5) txPower: 20.99 rxPower: -74.8359 dist: 250.066 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 14.0006 on node 0 payload of packet 30 (1->0), dist: 251.032 decoded successfully txPower: 20.99 rxPower: -74.8359 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 15 packet 31 sent (0->1), dist: 277.829 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 15 CalcRxPower ran for packet 31 (0->1) Pos(0)(2638.9:0:1.5) Pos(1)(2361.1:4:1.5) txPower: 21.0122 rxPower: -75.7281 dist: 277.829 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 15.0005 on node 1 payload of packet 31 (0->1), dist: 277.029 decoded successfully txPower: 21.0122 rxPower: -75.7281 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 15.0005 Node 1 packet 31 received from node 0 (distance = 277.029 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -75.7281 dB Tx Power: 21.0122 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 15.0005 CalcRxPower ran for packet 32 (1->0) Pos(1)(2361.09:4:1.5) Pos(0)(2638.91:0:1.5) txPower: 20.9197 rxPower: -75.8211 dist: 277.843 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 15.0006 on node 0 payload of packet 32 (1->0), dist: 277.029 decoded successfully txPower: 20.9197 rxPower: -75.8211 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 16 packet 33 sent (0->1), dist: 305.606 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 16 CalcRxPower ran for packet 33 (0->1) Pos(0)(2652.79:0:1.5) Pos(1)(2347.21:4:1.5) txPower: 20.9988 rxPower: -76.5693 dist: 305.606 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 16.0005 on node 1 payload of packet 33 (0->1), dist: 305.026 decoded successfully txPower: 20.9988 rxPower: -76.5693 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 16.0005 Node 1 packet 33 received from node 0 (distance = 305.026 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -76.5693 dB Tx Power: 20.9988 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 16.0005 CalcRxPower ran for packet 34 (1->0) Pos(1)(2347.2:4:1.5) Pos(0)(2652.8:0:1.5) txPower: 20.9532 rxPower: -76.6153 dist: 305.62 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 16.0006 on node 0 payload of packet 34 (1->0), dist: 305.026 decoded successfully txPower: 20.9532 rxPower: -76.6153 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 17 packet 35 sent (0->1), dist: 333.384 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 17 CalcRxPower ran for packet 35 (0->1) Pos(0)(2666.68:0:1.5) Pos(1)(2333.32:4:1.5) txPower: 20.9555 rxPower: -77.3682 dist: 333.384 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 17.0005 on node 1 payload of packet 35 (0->1), dist: 333.024 decoded successfully txPower: 20.9555 rxPower: -77.3682 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 17.0005 Node 1 packet 35 received from node 0 (distance = 333.024 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -77.3682 dB Tx Power: 20.9555 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 17.0005 CalcRxPower ran for packet 36 (1->0) Pos(1)(2333.31:4:1.5) Pos(0)(2666.69:0:1.5) txPower: 20.9824 rxPower: -77.3417 dist: 333.398 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 17.0006 on node 0 payload of packet 36 (1->0), dist: 333.024 decoded successfully txPower: 20.9824 rxPower: -77.3417 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 18 packet 37 sent (0->1), dist: 361.162 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 18 CalcRxPower ran for packet 37 (0->1) Pos(0)(2680.57:0:1.5) Pos(1)(2319.43:4:1.5) txPower: 20.9729 rxPower: -78.0459 dist: 361.162 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 18.0005 on node 1 payload of packet 37 (0->1), dist: 361.022 decoded successfully txPower: 20.9729 rxPower: -78.0459 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 18.0005 Node 1 packet 37 received from node 0 (distance = 361.022 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -78.0459 dB Tx Power: 20.9729 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 18.0005 CalcRxPower ran for packet 38 (1->0) Pos(1)(2319.42:4:1.5) Pos(0)(2680.58:0:1.5) txPower: 20.9625 rxPower: -78.0567 dist: 361.176 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 18.0006 on node 0 payload of packet 38 (1->0), dist: 361.022 decoded successfully txPower: 20.9625 rxPower: -78.0567 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 19 packet 39 sent (0->1), dist: 388.941 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 19 CalcRxPower ran for packet 39 (0->1) Pos(0)(2694.46:0:1.5) Pos(1)(2305.54:4:1.5) txPower: 20.9516 rxPower: -78.7109 dist: 388.941 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 19.0005 on node 1 payload of packet 39 (0->1), dist: 389.021 decoded successfully txPower: 20.9516 rxPower: -78.7109 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 19.0005 Node 1 packet 39 received from node 0 (distance = 389.021 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -78.7109 dB Tx Power: 20.9516 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 19.0005 CalcRxPower ran for packet 40 (1->0) Pos(1)(2305.53:4:1.5) Pos(0)(2694.47:0:1.5) txPower: 21.0281 rxPower: -78.6347 dist: 388.955 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 19.0006 on node 0 payload of packet 40 (1->0), dist: 389.021 decoded successfully txPower: 21.0281 rxPower: -78.6347 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 20 packet 41 sent (0->1), dist: 416.719 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 20 CalcRxPower ran for packet 41 (0->1) Pos(0)(2708.35:0:1.5) Pos(1)(2291.65:4:1.5) txPower: 20.9609 rxPower: -79.3008 dist: 416.719 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 20.0005 on node 1 payload of packet 41 (0->1), dist: 417.019 decoded successfully txPower: 20.9609 rxPower: -79.3008 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 20.0005 Node 1 packet 41 received from node 0 (distance = 417.019 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -79.3008 dB Tx Power: 20.9609 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 20.0005 CalcRxPower ran for packet 42 (1->0) Pos(1)(2291.64:4:1.5) Pos(0)(2708.36:0:1.5) txPower: 20.9254 rxPower: -79.3366 dist: 416.733 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 20.0006 on node 0 payload of packet 42 (1->0), dist: 417.019 decoded successfully txPower: 20.9254 rxPower: -79.3366 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 21 packet 43 sent (0->1), dist: 444.498 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 21 CalcRxPower ran for packet 43 (0->1) Pos(0)(2722.24:0:1.5) Pos(1)(2277.76:4:1.5) txPower: 20.9566 rxPower: -79.8656 dist: 444.498 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 21.0005 on node 1 payload of packet 43 (0->1), dist: 445.018 decoded successfully txPower: 20.9566 rxPower: -79.8656 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 21.0005 Node 1 packet 43 received from node 0 (distance = 445.018 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -79.8656 dB Tx Power: 20.9566 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 21.0005 CalcRxPower ran for packet 44 (1->0) Pos(1)(2277.75:4:1.5) Pos(0)(2722.25:0:1.5) txPower: 20.9444 rxPower: -79.8781 dist: 444.512 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 21.0006 on node 0 payload of packet 44 (1->0), dist: 445.018 decoded successfully txPower: 20.9444 rxPower: -79.8781 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 22 packet 45 sent (0->1), dist: 472.277 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 22 CalcRxPower ran for packet 45 (0->1) Pos(0)(2736.13:0:1.5) Pos(1)(2263.87:4:1.5) txPower: 20.9705 rxPower: -80.3782 dist: 472.277 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 22.0005 on node 1 payload of packet 45 (0->1), dist: 473.017 decoded successfully txPower: 20.9705 rxPower: -80.3782 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 22.0005 Node 1 packet 45 received from node 0 (distance = 473.017 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -80.3782 dB Tx Power: 20.9705 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 22.0005 CalcRxPower ran for packet 46 (1->0) Pos(1)(2263.86:4:1.5) Pos(0)(2736.14:0:1.5) txPower: 20.9741 rxPower: -80.3749 dist: 472.291 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 22.0006 on node 0 payload of packet 46 (1->0), dist: 473.017 decoded successfully txPower: 20.9741 rxPower: -80.3749 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 23 packet 47 sent (0->1), dist: 500.056 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 23 CalcRxPower ran for packet 47 (0->1) Pos(0)(2750.02:0:1.5) Pos(1)(2249.98:4:1.5) txPower: 20.9706 rxPower: -80.8746 dist: 500.056 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 23.0005 on node 1 payload of packet 47 (0->1), dist: 501.016 decoded successfully txPower: 20.9706 rxPower: -80.8746 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 23.0005 Node 1 packet 47 received from node 0 (distance = 501.016 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -80.8746 dB Tx Power: 20.9706 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 23.0005 CalcRxPower ran for packet 48 (1->0) Pos(1)(2249.97:4:1.5) Pos(0)(2750.03:0:1.5) txPower: 20.951 rxPower: -80.8945 dist: 500.07 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 23.0006 on node 0 payload of packet 48 (1->0), dist: 501.016 decoded successfully txPower: 20.951 rxPower: -80.8945 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 24 packet 49 sent (0->1), dist: 527.835 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 24 CalcRxPower ran for packet 49 (0->1) Pos(0)(2763.91:0:1.5) Pos(1)(2236.09:4:1.5) txPower: 20.991 rxPower: -81.3238 dist: 527.835 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 24.0005 on node 1 payload of packet 49 (0->1), dist: 527.015 decoded successfully txPower: 20.991 rxPower: -81.3238 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 24.0005 Node 1 packet 49 received from node 0 (distance = 527.015 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -81.3238 dB Tx Power: 20.991 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 24.0005 CalcRxPower ran for packet 50 (1->0) Pos(1)(2236.08:4:1.5) Pos(0)(2763.92:0:1.5) txPower: 20.9815 rxPower: -81.3335 dist: 527.849 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 24.0006 on node 0 payload of packet 50 (1->0), dist: 527.015 decoded successfully txPower: 20.9815 rxPower: -81.3335 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 25 packet 51 sent (0->1), dist: 555.614 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 25 CalcRxPower ran for packet 51 (0->1) Pos(0)(2777.8:0:1.5) Pos(1)(2222.2:4:1.5) txPower: 20.9696 rxPower: -81.7907 dist: 555.614 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 25.0005 on node 1 payload of packet 51 (0->1), dist: 555.014 decoded successfully txPower: 20.9696 rxPower: -81.7907 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 25.0005 Node 1 packet 51 received from node 0 (distance = 555.014 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -81.7907 dB Tx Power: 20.9696 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 25.0005 CalcRxPower ran for packet 52 (1->0) Pos(1)(2222.19:4:1.5) Pos(0)(2777.81:0:1.5) txPower: 20.947 rxPower: -81.8135 dist: 555.628 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 25.0006 on node 0 payload of packet 52 (1->0), dist: 555.014 decoded successfully txPower: 20.947 rxPower: -81.8135 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 26 packet 53 sent (0->1), dist: 583.394 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 26 CalcRxPower ran for packet 53 (0->1) Pos(0)(2791.69:0:1.5) Pos(1)(2208.31:4:1.5) txPower: 20.9773 rxPower: -82.2067 dist: 583.394 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 26.0005 on node 1 payload of packet 53 (0->1), dist: 583.014 decoded successfully txPower: 20.9773 rxPower: -82.2067 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 26.0005 Node 1 packet 53 received from node 0 (distance = 583.014 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -82.2067 dB Tx Power: 20.9773 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 26.0005 CalcRxPower ran for packet 54 (1->0) Pos(1)(2208.3:4:1.5) Pos(0)(2791.7:0:1.5) txPower: 21.0064 rxPower: -82.1779 dist: 583.408 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 26.0006 on node 0 payload of packet 54 (1->0), dist: 583.014 decoded successfully txPower: 21.0064 rxPower: -82.1779 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 27 packet 55 sent (0->1), dist: 611.173 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 27 CalcRxPower ran for packet 55 (0->1) Pos(0)(2805.58:0:1.5) Pos(1)(2194.42:4:1.5) txPower: 20.9676 rxPower: -82.6205 dist: 611.173 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 27.0005 on node 1 payload of packet 55 (0->1), dist: 611.013 decoded successfully txPower: 20.9676 rxPower: -82.6205 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 27.0005 Node 1 packet 55 received from node 0 (distance = 611.013 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -82.6205 dB Tx Power: 20.9676 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 27.0005 CalcRxPower ran for packet 56 (1->0) Pos(1)(2194.41:4:1.5) Pos(0)(2805.59:0:1.5) txPower: 20.9548 rxPower: -82.6336 dist: 611.187 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 27.0006 on node 0 payload of packet 56 (1->0), dist: 611.013 decoded successfully txPower: 20.9548 rxPower: -82.6336 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 28 packet 57 sent (0->1), dist: 638.953 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 28 CalcRxPower ran for packet 57 (0->1) Pos(0)(2819.47:0:1.5) Pos(1)(2180.53:4:1.5) txPower: 20.9959 rxPower: -82.9783 dist: 638.953 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 28.0005 on node 1 payload of packet 57 (0->1), dist: 639.013 decoded successfully txPower: 20.9959 rxPower: -82.9783 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 28.0005 Node 1 packet 57 received from node 0 (distance = 639.013 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -82.9783 dB Tx Power: 20.9959 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 28.0005 CalcRxPower ran for packet 58 (1->0) Pos(1)(2180.52:4:1.5) Pos(0)(2819.48:0:1.5) txPower: 20.9737 rxPower: -83.0007 dist: 638.967 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 28.0006 on node 0 payload of packet 58 (1->0), dist: 639.013 decoded successfully txPower: 20.9737 rxPower: -83.0007 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 29 packet 59 sent (0->1), dist: 666.732 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 29 CalcRxPower ran for packet 59 (0->1) Pos(0)(2833.36:0:1.5) Pos(1)(2166.64:4:1.5) txPower: 20.9807 rxPower: -83.3632 dist: 666.732 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 29.0005 on node 1 payload of packet 59 (0->1), dist: 667.012 decoded successfully txPower: 20.9807 rxPower: -83.3632 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 29.0005 Node 1 packet 59 received from node 0 (distance = 667.012 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -83.3632 dB Tx Power: 20.9807 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 29.0005 CalcRxPower ran for packet 60 (1->0) Pos(1)(2166.63:4:1.5) Pos(0)(2833.37:0:1.5) txPower: 20.8727 rxPower: -83.4713 dist: 666.746 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 29.0006 on node 0 payload of packet 60 (1->0), dist: 667.012 decoded successfully txPower: 20.8727 rxPower: -83.4713 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 30 packet 61 sent (0->1), dist: 694.512 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 30 CalcRxPower ran for packet 61 (0->1) Pos(0)(2847.25:0:1.5) Pos(1)(2152.75:4:1.5) txPower: 20.9676 rxPower: -83.7308 dist: 694.512 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 30.0005 on node 1 payload of packet 61 (0->1), dist: 695.012 decoded successfully txPower: 20.9676 rxPower: -83.7308 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 30.0005 Node 1 packet 61 received from node 0 (distance = 695.012 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -83.7308 dB Tx Power: 20.9676 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 30.0005 CalcRxPower ran for packet 62 (1->0) Pos(1)(2152.74:4:1.5) Pos(0)(2847.26:0:1.5) txPower: 20.9902 rxPower: -83.7084 dist: 694.526 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 30.0006 on node 0 payload of packet 62 (1->0), dist: 695.012 decoded successfully txPower: 20.9902 rxPower: -83.7084 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 31 packet 63 sent (0->1), dist: 722.291 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 31 CalcRxPower ran for packet 63 (0->1) Pos(0)(2861.14:0:1.5) Pos(1)(2138.86:4:1.5) txPower: 20.9959 rxPower: -84.0432 dist: 722.291 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 31.0005 on node 1 payload of packet 63 (0->1), dist: 723.011 decoded successfully txPower: 20.9959 rxPower: -84.0432 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 31.0005 Node 1 packet 63 received from node 0 (distance = 723.011 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -84.0432 dB Tx Power: 20.9959 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 31.0005 CalcRxPower ran for packet 64 (1->0) Pos(1)(2138.85:4:1.5) Pos(0)(2861.15:0:1.5) txPower: 20.9153 rxPower: -84.124 dist: 722.305 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 31.0006 on node 0 payload of packet 64 (1->0), dist: 723.011 decoded successfully txPower: 20.9153 rxPower: -84.124 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 32 packet 65 sent (0->1), dist: 750.071 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 32 CalcRxPower ran for packet 65 (0->1) Pos(0)(2875.03:0:1.5) Pos(1)(2124.97:4:1.5) txPower: 20.954 rxPower: -84.4129 dist: 750.071 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 32.0005 on node 1 payload of packet 65 (0->1), dist: 751.011 decoded successfully txPower: 20.954 rxPower: -84.4129 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 32.0005 Node 1 packet 65 received from node 0 (distance = 751.011 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -84.4129 dB Tx Power: 20.954 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 32.0005 CalcRxPower ran for packet 66 (1->0) Pos(1)(2124.96:4:1.5) Pos(0)(2875.04:0:1.5) txPower: 20.9171 rxPower: -84.4499 dist: 750.085 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 32.0006 on node 0 payload of packet 66 (1->0), dist: 751.011 decoded successfully txPower: 20.9171 rxPower: -84.4499 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 33 packet 67 sent (0->1), dist: 777.85 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 33 CalcRxPower ran for packet 67 (0->1) Pos(0)(2888.92:0:1.5) Pos(1)(2111.08:4:1.5) txPower: 20.9457 rxPower: -84.7371 dist: 777.85 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 33.0005 on node 1 payload of packet 67 (0->1), dist: 777.01 decoded successfully txPower: 20.9457 rxPower: -84.7371 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 33.0005 Node 1 packet 67 received from node 0 (distance = 777.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -84.7371 dB Tx Power: 20.9457 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 33.0005 CalcRxPower ran for packet 68 (1->0) Pos(1)(2111.07:4:1.5) Pos(0)(2888.93:0:1.5) txPower: 20.9781 rxPower: -84.7048 dist: 777.864 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 33.0006 on node 0 payload of packet 68 (1->0), dist: 777.01 decoded successfully txPower: 20.9781 rxPower: -84.7048 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 34 packet 69 sent (0->1), dist: 805.63 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 34 CalcRxPower ran for packet 69 (0->1) Pos(0)(2902.81:0:1.5) Pos(1)(2097.19:4:1.5) txPower: 20.966 rxPower: -85.0215 dist: 805.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 34.0005 on node 1 payload of packet 69 (0->1), dist: 805.01 decoded successfully txPower: 20.966 rxPower: -85.0215 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 34.0005 Node 1 packet 69 received from node 0 (distance = 805.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -85.0215 dB Tx Power: 20.966 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 34.0005 CalcRxPower ran for packet 70 (1->0) Pos(1)(2097.18:4:1.5) Pos(0)(2902.82:0:1.5) txPower: 20.9196 rxPower: -85.0681 dist: 805.644 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 34.0006 on node 0 payload of packet 70 (1->0), dist: 805.01 decoded successfully txPower: 20.9196 rxPower: -85.0681 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 35 packet 71 sent (0->1), dist: 833.41 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 35 CalcRxPower ran for packet 71 (0->1) Pos(0)(2916.7:0:1.5) Pos(1)(2083.3:4:1.5) txPower: 20.9512 rxPower: -85.3308 dist: 833.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 35.0005 on node 1 payload of packet 71 (0->1), dist: 833.01 decoded successfully txPower: 20.9512 rxPower: -85.3308 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 35.0005 Node 1 packet 71 received from node 0 (distance = 833.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -85.3308 dB Tx Power: 20.9512 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 35.0005 CalcRxPower ran for packet 72 (1->0) Pos(1)(2083.29:4:1.5) Pos(0)(2916.71:0:1.5) txPower: 20.9041 rxPower: -85.378 dist: 833.424 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 35.0006 on node 0 payload of packet 72 (1->0), dist: 833.01 decoded successfully txPower: 20.9041 rxPower: -85.378 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 36 packet 73 sent (0->1), dist: 861.189 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 36 CalcRxPower ran for packet 73 (0->1) Pos(0)(2930.59:0:1.5) Pos(1)(2069.41:4:1.5) txPower: 20.9423 rxPower: -85.6245 dist: 861.189 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 36.0005 on node 1 payload of packet 73 (0->1), dist: 861.009 decoded successfully txPower: 20.9423 rxPower: -85.6245 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 36.0005 Node 1 packet 73 received from node 0 (distance = 861.009 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -85.6245 dB Tx Power: 20.9423 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 36.0005 CalcRxPower ran for packet 74 (1->0) Pos(1)(2069.4:4:1.5) Pos(0)(2930.6:0:1.5) txPower: 21.0033 rxPower: -85.5636 dist: 861.203 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 36.0006 on node 0 payload of packet 74 (1->0), dist: 861.009 decoded successfully txPower: 21.0033 rxPower: -85.5636 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 37 packet 75 sent (0->1), dist: 888.969 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 37 CalcRxPower ran for packet 75 (0->1) Pos(0)(2944.48:0:1.5) Pos(1)(2055.52:4:1.5) txPower: 20.9481 rxPower: -85.8945 dist: 888.969 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 37.0005 on node 1 payload of packet 75 (0->1), dist: 889.009 decoded successfully txPower: 20.9481 rxPower: -85.8945 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 37.0005 Node 1 packet 75 received from node 0 (distance = 889.009 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -85.8945 dB Tx Power: 20.9481 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 37.0005 CalcRxPower ran for packet 76 (1->0) Pos(1)(2055.51:4:1.5) Pos(0)(2944.49:0:1.5) txPower: 20.9483 rxPower: -85.8944 dist: 888.983 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 37.0006 on node 0 payload of packet 76 (1->0), dist: 889.009 decoded successfully txPower: 20.9483 rxPower: -85.8944 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 38 packet 77 sent (0->1), dist: 916.749 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 38 CalcRxPower ran for packet 77 (0->1) Pos(0)(2958.37:0:1.5) Pos(1)(2041.63:4:1.5) txPower: 20.9875 rxPower: -86.1224 dist: 916.749 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 38.0005 on node 1 payload of packet 77 (0->1), dist: 917.009 decoded successfully txPower: 20.9875 rxPower: -86.1224 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 38.0005 Node 1 packet 77 received from node 0 (distance = 917.009 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -86.1224 dB Tx Power: 20.9875 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 38.0005 CalcRxPower ran for packet 78 (1->0) Pos(1)(2041.62:4:1.5) Pos(0)(2958.38:0:1.5) txPower: 20.9488 rxPower: -86.1612 dist: 916.763 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 38.0006 on node 0 payload of packet 78 (1->0), dist: 917.009 decoded successfully txPower: 20.9488 rxPower: -86.1612 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 39 packet 79 sent (0->1), dist: 944.528 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 39 CalcRxPower ran for packet 79 (0->1) Pos(0)(2972.26:0:1.5) Pos(1)(2027.74:4:1.5) txPower: 20.9623 rxPower: -86.4068 dist: 944.528 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 39.0005 on node 1 payload of packet 79 (0->1), dist: 945.008 decoded successfully txPower: 20.9623 rxPower: -86.4068 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 39.0005 Node 1 packet 79 received from node 0 (distance = 945.008 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -86.4068 dB Tx Power: 20.9623 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 39.0005 CalcRxPower ran for packet 80 (1->0) Pos(1)(2027.73:4:1.5) Pos(0)(2972.27:0:1.5) txPower: 20.9902 rxPower: -86.3791 dist: 944.543 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 39.0006 on node 0 payload of packet 80 (1->0), dist: 945.008 decoded successfully txPower: 20.9902 rxPower: -86.3791 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 40 packet 81 sent (0->1), dist: 972.308 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 40 CalcRxPower ran for packet 81 (0->1) Pos(0)(2986.15:0:1.5) Pos(1)(2013.85:4:1.5) txPower: 20.951 rxPower: -86.6699 dist: 972.308 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 40.0005 on node 1 payload of packet 81 (0->1), dist: 973.008 decoded successfully txPower: 20.951 rxPower: -86.6699 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 40.0005 Node 1 packet 81 received from node 0 (distance = 973.008 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -86.6699 dB Tx Power: 20.951 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 40.0005 CalcRxPower ran for packet 82 (1->0) Pos(1)(2013.84:4:1.5) Pos(0)(2986.16:0:1.5) txPower: 21.0138 rxPower: -86.6072 dist: 972.322 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 40.0006 on node 0 payload of packet 82 (1->0), dist: 973.008 decoded successfully txPower: 21.0138 rxPower: -86.6072 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 41 packet 83 sent (0->1), dist: 1000.09 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 41 CalcRxPower ran for packet 83 (0->1) Pos(0)(3000.04:0:1.5) Pos(1)(1999.96:4:1.5) txPower: 20.9495 rxPower: -86.9161 dist: 1000.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 41.0005 on node 1 payload of packet 83 (0->1), dist: 1001.01 decoded successfully txPower: 20.9495 rxPower: -86.9161 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 41.0005 Node 1 packet 83 received from node 0 (distance = 1001.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -86.9161 dB Tx Power: 20.9495 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 41.0005 CalcRxPower ran for packet 84 (1->0) Pos(1)(1999.95:4:1.5) Pos(0)(3000.05:0:1.5) txPower: 20.9153 rxPower: -86.9505 dist: 1000.1 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 41.0006 on node 0 payload of packet 84 (1->0), dist: 1001.01 decoded successfully txPower: 20.9153 rxPower: -86.9505 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 42 packet 85 sent (0->1), dist: 1027.87 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 42 CalcRxPower ran for packet 85 (0->1) Pos(0)(3013.93:0:1.5) Pos(1)(1986.07:4:1.5) txPower: 20.9506 rxPower: -87.153 dist: 1027.87 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 42.0005 on node 1 payload of packet 85 (0->1), dist: 1027.01 decoded successfully txPower: 20.9506 rxPower: -87.153 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 42.0005 Node 1 packet 85 received from node 0 (distance = 1027.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -87.153 dB Tx Power: 20.9506 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 42.0005 CalcRxPower ran for packet 86 (1->0) Pos(1)(1986.06:4:1.5) Pos(0)(3013.94:0:1.5) txPower: 20.9341 rxPower: -87.1696 dist: 1027.88 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 42.0006 on node 0 payload of packet 86 (1->0), dist: 1027.01 decoded successfully txPower: 20.9341 rxPower: -87.1696 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 43 packet 87 sent (0->1), dist: 1055.65 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 43 CalcRxPower ran for packet 87 (0->1) Pos(0)(3027.82:0:1.5) Pos(1)(1972.18:4:1.5) txPower: 20.9527 rxPower: -87.3825 dist: 1055.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 43.0005 on node 1 payload of packet 87 (0->1), dist: 1055.01 decoded successfully txPower: 20.9527 rxPower: -87.3825 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 43.0005 Node 1 packet 87 received from node 0 (distance = 1055.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -87.3825 dB Tx Power: 20.9527 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 43.0005 CalcRxPower ran for packet 88 (1->0) Pos(1)(1972.17:4:1.5) Pos(0)(3027.83:0:1.5) txPower: 20.9184 rxPower: -87.4169 dist: 1055.66 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 43.0006 on node 0 payload of packet 88 (1->0), dist: 1055.01 decoded successfully txPower: 20.9184 rxPower: -87.4169 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 44 packet 89 sent (0->1), dist: 1083.43 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 44 CalcRxPower ran for packet 89 (0->1) Pos(0)(3041.71:0:1.5) Pos(1)(1958.29:4:1.5) txPower: 20.9714 rxPower: -87.5894 dist: 1083.43 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 44.0005 on node 1 payload of packet 89 (0->1), dist: 1083.01 decoded successfully txPower: 20.9714 rxPower: -87.5894 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 44.0005 Node 1 packet 89 received from node 0 (distance = 1083.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -87.5894 dB Tx Power: 20.9714 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 44.0005 CalcRxPower ran for packet 90 (1->0) Pos(1)(1958.28:4:1.5) Pos(0)(3041.72:0:1.5) txPower: 20.9015 rxPower: -87.6595 dist: 1083.44 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 44.0006 on node 0 payload of packet 90 (1->0), dist: 1083.01 decoded successfully txPower: 20.9015 rxPower: -87.6595 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 45 packet 91 sent (0->1), dist: 1111.21 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 45 CalcRxPower ran for packet 91 (0->1) Pos(0)(3055.6:0:1.5) Pos(1)(1944.4:4:1.5) txPower: 20.9391 rxPower: -87.8416 dist: 1111.21 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 45.0005 on node 1 payload of packet 91 (0->1), dist: 1111.01 decoded successfully txPower: 20.9391 rxPower: -87.8416 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 45.0005 Node 1 packet 91 received from node 0 (distance = 1111.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -87.8416 dB Tx Power: 20.9391 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 45.0005 CalcRxPower ran for packet 92 (1->0) Pos(1)(1944.39:4:1.5) Pos(0)(3055.61:0:1.5) txPower: 20.9643 rxPower: -87.8165 dist: 1111.22 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 45.0006 on node 0 payload of packet 92 (1->0), dist: 1111.01 decoded successfully txPower: 20.9643 rxPower: -87.8165 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 46 packet 93 sent (0->1), dist: 1138.99 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 46 CalcRxPower ran for packet 93 (0->1) Pos(0)(3069.49:0:1.5) Pos(1)(1930.51:4:1.5) txPower: 20.9622 rxPower: -88.033 dist: 1138.99 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 46.0005 on node 1 payload of packet 93 (0->1), dist: 1139.01 decoded successfully txPower: 20.9622 rxPower: -88.033 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 46.0005 Node 1 packet 93 received from node 0 (distance = 1139.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -88.033 dB Tx Power: 20.9622 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 46.0005 CalcRxPower ran for packet 94 (1->0) Pos(1)(1930.5:4:1.5) Pos(0)(3069.5:0:1.5) txPower: 20.9295 rxPower: -88.0658 dist: 1139 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 46.0006 on node 0 payload of packet 94 (1->0), dist: 1139.01 decoded successfully txPower: 20.9295 rxPower: -88.0658 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 47 packet 95 sent (0->1), dist: 1166.77 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 47 CalcRxPower ran for packet 95 (0->1) Pos(0)(3083.38:0:1.5) Pos(1)(1916.62:4:1.5) txPower: 20.9648 rxPower: -88.2397 dist: 1166.77 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 47.0005 on node 1 payload of packet 95 (0->1), dist: 1167.01 decoded successfully txPower: 20.9648 rxPower: -88.2397 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 47.0005 Node 1 packet 95 received from node 0 (distance = 1167.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -88.2397 dB Tx Power: 20.9648 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 47.0005 CalcRxPower ran for packet 96 (1->0) Pos(1)(1916.61:4:1.5) Pos(0)(3083.39:0:1.5) txPower: 21.0066 rxPower: -88.198 dist: 1166.78 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 47.0006 on node 0 payload of packet 96 (1->0), dist: 1167.01 decoded successfully txPower: 21.0066 rxPower: -88.198 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 48 packet 97 sent (0->1), dist: 1194.55 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 48 CalcRxPower ran for packet 97 (0->1) Pos(0)(3097.27:0:1.5) Pos(1)(1902.73:4:1.5) txPower: 20.9953 rxPower: -88.4136 dist: 1194.55 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 48.0005 on node 1 payload of packet 97 (0->1), dist: 1195.01 decoded successfully txPower: 20.9953 rxPower: -88.4136 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 48.0005 Node 1 packet 97 received from node 0 (distance = 1195.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -88.4136 dB Tx Power: 20.9953 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 48.0005 CalcRxPower ran for packet 98 (1->0) Pos(1)(1902.72:4:1.5) Pos(0)(3097.28:0:1.5) txPower: 20.8826 rxPower: -88.5264 dist: 1194.56 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 48.0006 on node 0 payload of packet 98 (1->0), dist: 1195.01 decoded successfully txPower: 20.8826 rxPower: -88.5264 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 49 packet 99 sent (0->1), dist: 1222.33 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 49 CalcRxPower ran for packet 99 (0->1) Pos(0)(3111.16:0:1.5) Pos(1)(1888.84:4:1.5) txPower: 20.949 rxPower: -88.6596 dist: 1222.33 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 49.0005 on node 1 payload of packet 99 (0->1), dist: 1223.01 decoded successfully txPower: 20.949 rxPower: -88.6596 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 49.0005 Node 1 packet 99 received from node 0 (distance = 1223.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -88.6596 dB Tx Power: 20.949 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 49.0005 CalcRxPower ran for packet 100 (1->0) Pos(1)(1888.83:4:1.5) Pos(0)(3111.17:0:1.5) txPower: 20.9686 rxPower: -88.64 dist: 1222.34 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 49.0006 on node 0 payload of packet 100 (1->0), dist: 1223.01 decoded successfully txPower: 20.9686 rxPower: -88.64 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 50 packet 101 sent (0->1), dist: 1250.11 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 50 CalcRxPower ran for packet 101 (0->1) Pos(0)(3125.05:0:1.5) Pos(1)(1874.95:4:1.5) txPower: 20.9895 rxPower: -88.8142 dist: 1250.11 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 50.0005 on node 1 payload of packet 101 (0->1), dist: 1251.01 decoded successfully txPower: 20.9895 rxPower: -88.8142 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 50.0005 Node 1 packet 101 received from node 0 (distance = 1251.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -88.8142 dB Tx Power: 20.9895 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 50.0005 CalcRxPower ran for packet 102 (1->0) Pos(1)(1874.94:4:1.5) Pos(0)(3125.06:0:1.5) txPower: 20.8923 rxPower: -88.9115 dist: 1250.12 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 50.0006 on node 0 payload of packet 102 (1->0), dist: 1251.01 decoded successfully txPower: 20.8923 rxPower: -88.9115 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 51 packet 103 sent (0->1), dist: 1277.89 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 51 CalcRxPower ran for packet 103 (0->1) Pos(0)(3138.94:0:1.5) Pos(1)(1861.06:4:1.5) txPower: 20.9497 rxPower: -89.0449 dist: 1277.89 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 51.0005 on node 1 payload of packet 103 (0->1), dist: 1277.01 decoded successfully txPower: 20.9497 rxPower: -89.0449 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 51.0005 Node 1 packet 103 received from node 0 (distance = 1277.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.0449 dB Tx Power: 20.9497 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 51.0005 CalcRxPower ran for packet 104 (1->0) Pos(1)(1861.05:4:1.5) Pos(0)(3138.95:0:1.5) txPower: 20.9527 rxPower: -89.0421 dist: 1277.9 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 51.0006 on node 0 payload of packet 104 (1->0), dist: 1277.01 decoded successfully txPower: 20.9527 rxPower: -89.0421 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 52 packet 105 sent (0->1), dist: 1305.67 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 52 CalcRxPower ran for packet 105 (0->1) Pos(0)(3152.83:0:1.5) Pos(1)(1847.17:4:1.5) txPower: 20.9548 rxPower: -89.2267 dist: 1305.67 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 52.0005 on node 1 payload of packet 105 (0->1), dist: 1305.01 decoded successfully txPower: 20.9548 rxPower: -89.2267 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 52.0005 Node 1 packet 105 received from node 0 (distance = 1305.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.2267 dB Tx Power: 20.9548 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 52.0005 CalcRxPower ran for packet 106 (1->0) Pos(1)(1847.16:4:1.5) Pos(0)(3152.84:0:1.5) txPower: 21.0066 rxPower: -89.175 dist: 1305.68 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 52.0006 on node 0 payload of packet 106 (1->0), dist: 1305.01 decoded successfully txPower: 21.0066 rxPower: -89.175 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 53 packet 107 sent (0->1), dist: 1333.45 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 53 CalcRxPower ran for packet 107 (0->1) Pos(0)(3166.72:0:1.5) Pos(1)(1833.28:4:1.5) txPower: 20.9538 rxPower: -89.4105 dist: 1333.45 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 53.0005 on node 1 payload of packet 107 (0->1), dist: 1333.01 decoded successfully txPower: 20.9538 rxPower: -89.4105 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 53.0005 Node 1 packet 107 received from node 0 (distance = 1333.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.4105 dB Tx Power: 20.9538 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 53.0005 CalcRxPower ran for packet 108 (1->0) Pos(1)(1833.27:4:1.5) Pos(0)(3166.73:0:1.5) txPower: 20.9824 rxPower: -89.382 dist: 1333.46 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 53.0006 on node 0 payload of packet 108 (1->0), dist: 1333.01 decoded successfully txPower: 20.9824 rxPower: -89.382 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 54 packet 109 sent (0->1), dist: 1361.23 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 54 CalcRxPower ran for packet 109 (0->1) Pos(0)(3180.61:0:1.5) Pos(1)(1819.39:4:1.5) txPower: 20.9646 rxPower: -89.5789 dist: 1361.23 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 54.0005 on node 1 payload of packet 109 (0->1), dist: 1361.01 decoded successfully txPower: 20.9646 rxPower: -89.5789 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 54.0005 Node 1 packet 109 received from node 0 (distance = 1361.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.5789 dB Tx Power: 20.9646 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 54.0005 CalcRxPower ran for packet 110 (1->0) Pos(1)(1819.38:4:1.5) Pos(0)(3180.62:0:1.5) txPower: 20.8727 rxPower: -89.6708 dist: 1361.24 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 54.0006 on node 0 payload of packet 110 (1->0), dist: 1361.01 decoded successfully txPower: 20.8727 rxPower: -89.6708 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 55 packet 111 sent (0->1), dist: 1389.01 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 55 CalcRxPower ran for packet 111 (0->1) Pos(0)(3194.5:0:1.5) Pos(1)(1805.5:4:1.5) txPower: 20.9871 rxPower: -89.7318 dist: 1389.01 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 55.0005 on node 1 payload of packet 111 (0->1), dist: 1389.01 decoded successfully txPower: 20.9871 rxPower: -89.7318 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 55.0005 Node 1 packet 111 received from node 0 (distance = 1389.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.7318 dB Tx Power: 20.9871 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 55.0005 CalcRxPower ran for packet 112 (1->0) Pos(1)(1805.49:4:1.5) Pos(0)(3194.51:0:1.5) txPower: 21.0138 rxPower: -89.7052 dist: 1389.02 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 55.0006 on node 0 payload of packet 112 (1->0), dist: 1389.01 decoded successfully txPower: 21.0138 rxPower: -89.7052 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 56 packet 113 sent (0->1), dist: 1416.79 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 56 CalcRxPower ran for packet 113 (0->1) Pos(0)(3208.39:0:1.5) Pos(1)(1791.61:4:1.5) txPower: 20.9502 rxPower: -89.9407 dist: 1416.79 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 56.0005 on node 1 payload of packet 113 (0->1), dist: 1417.01 decoded successfully txPower: 20.9502 rxPower: -89.9407 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 56.0005 Node 1 packet 113 received from node 0 (distance = 1417.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -89.9407 dB Tx Power: 20.9502 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 56.0005 CalcRxPower ran for packet 114 (1->0) Pos(1)(1791.6:4:1.5) Pos(0)(3208.4:0:1.5) txPower: 21.0103 rxPower: -89.8807 dist: 1416.8 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 56.0006 on node 0 payload of packet 114 (1->0), dist: 1417.01 decoded successfully txPower: 21.0103 rxPower: -89.8807 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 57 packet 115 sent (0->1), dist: 1444.57 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 57 CalcRxPower ran for packet 115 (0->1) Pos(0)(3222.28:0:1.5) Pos(1)(1777.72:4:1.5) txPower: 20.9663 rxPower: -90.0932 dist: 1444.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 57.0005 on node 1 payload of packet 115 (0->1), dist: 1445.01 decoded successfully txPower: 20.9663 rxPower: -90.0932 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 57.0005 Node 1 packet 115 received from node 0 (distance = 1445.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.0932 dB Tx Power: 20.9663 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 57.0005 CalcRxPower ran for packet 116 (1->0) Pos(1)(1777.71:4:1.5) Pos(0)(3222.29:0:1.5) txPower: 20.9172 rxPower: -90.1424 dist: 1444.58 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 57.0006 on node 0 payload of packet 116 (1->0), dist: 1445.01 decoded successfully txPower: 20.9172 rxPower: -90.1424 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 58 packet 117 sent (0->1), dist: 1472.35 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 58 CalcRxPower ran for packet 117 (0->1) Pos(0)(3236.17:0:1.5) Pos(1)(1763.83:4:1.5) txPower: 20.9692 rxPower: -90.2558 dist: 1472.35 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 58.0005 on node 1 payload of packet 117 (0->1), dist: 1473.01 decoded successfully txPower: 20.9692 rxPower: -90.2558 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 58.0005 Node 1 packet 117 received from node 0 (distance = 1473.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.2558 dB Tx Power: 20.9692 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 58.0005 CalcRxPower ran for packet 118 (1->0) Pos(1)(1763.82:4:1.5) Pos(0)(3236.18:0:1.5) txPower: 20.9538 rxPower: -90.2713 dist: 1472.36 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 58.0006 on node 0 payload of packet 118 (1->0), dist: 1473.01 decoded successfully txPower: 20.9538 rxPower: -90.2713 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 59 packet 119 sent (0->1), dist: 1500.13 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 59 CalcRxPower ran for packet 119 (0->1) Pos(0)(3250.06:0:1.5) Pos(1)(1749.94:4:1.5) txPower: 20.9947 rxPower: -90.3927 dist: 1500.13 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 59.0005 on node 1 payload of packet 119 (0->1), dist: 1501.01 decoded successfully txPower: 20.9947 rxPower: -90.3927 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 59.0005 Node 1 packet 119 received from node 0 (distance = 1501.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.3927 dB Tx Power: 20.9947 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 59.0005 CalcRxPower ran for packet 120 (1->0) Pos(1)(1749.93:4:1.5) Pos(0)(3250.07:0:1.5) txPower: 20.8792 rxPower: -90.5083 dist: 1500.14 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 59.0006 on node 0 payload of packet 120 (1->0), dist: 1501.01 decoded successfully txPower: 20.8792 rxPower: -90.5083 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 60 packet 121 sent (0->1), dist: 1527.91 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 60 CalcRxPower ran for packet 121 (0->1) Pos(0)(3263.95:0:1.5) Pos(1)(1736.05:4:1.5) txPower: 20.9857 rxPower: -90.5611 dist: 1527.91 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 60.0005 on node 1 payload of packet 121 (0->1), dist: 1527.01 decoded successfully txPower: 20.9857 rxPower: -90.5611 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 60.0005 Node 1 packet 121 received from node 0 (distance = 1527.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.5611 dB Tx Power: 20.9857 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 60.0005 CalcRxPower ran for packet 122 (1->0) Pos(1)(1736.04:4:1.5) Pos(0)(3263.96:0:1.5) txPower: 20.9483 rxPower: -90.5985 dist: 1527.92 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 60.0006 on node 0 payload of packet 122 (1->0), dist: 1527.01 decoded successfully txPower: 20.9483 rxPower: -90.5985 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 61 packet 123 sent (0->1), dist: 1555.69 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 61 CalcRxPower ran for packet 123 (0->1) Pos(0)(3277.84:0:1.5) Pos(1)(1722.16:4:1.5) txPower: 20.9767 rxPower: -90.7265 dist: 1555.69 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 61.0005 on node 1 payload of packet 123 (0->1), dist: 1555.01 decoded successfully txPower: 20.9767 rxPower: -90.7265 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 61.0005 Node 1 packet 123 received from node 0 (distance = 1555.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.7265 dB Tx Power: 20.9767 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 61.0005 CalcRxPower ran for packet 124 (1->0) Pos(1)(1722.15:4:1.5) Pos(0)(3277.85:0:1.5) txPower: 20.947 rxPower: -90.7563 dist: 1555.7 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 61.0006 on node 0 payload of packet 124 (1->0), dist: 1555.01 decoded successfully txPower: 20.947 rxPower: -90.7563 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 62 packet 125 sent (0->1), dist: 1583.47 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 62 CalcRxPower ran for packet 125 (0->1) Pos(0)(3291.73:0:1.5) Pos(1)(1708.27:4:1.5) txPower: 20.9749 rxPower: -90.8821 dist: 1583.47 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 62.0005 on node 1 payload of packet 125 (0->1), dist: 1583.01 decoded successfully txPower: 20.9749 rxPower: -90.8821 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 62.0005 Node 1 packet 125 received from node 0 (distance = 1583.01 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -90.8821 dB Tx Power: 20.9749 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 62.0005 CalcRxPower ran for packet 126 (1->0) Pos(1)(1708.26:4:1.5) Pos(0)(3291.74:0:1.5) txPower: 20.9725 rxPower: -90.8845 dist: 1583.48 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 62.0006 on node 0 payload of packet 126 (1->0), dist: 1583.01 decoded successfully txPower: 20.9725 rxPower: -90.8845 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 63 packet 127 sent (0->1), dist: 1611.24 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 63 CalcRxPower ran for packet 127 (0->1) Pos(0)(3305.62:0:1.5) Pos(1)(1694.38:4:1.5) txPower: 20.9494 rxPower: -91.0587 dist: 1611.24 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 63.0005 on node 1 payload of packet 127 (0->1), dist: 1611 not decoded txPower: 20.9494 rxPower: -91.0587 Snr: -1 TeB: 0.0113281 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 63.0011 CalcRxPower ran for packet 127 (0->1) Pos(0)(3305.63:0:1.5) Pos(1)(1694.37:4:1.5) txPower: 20.9534 rxPower: -91.0549 dist: 1611.27 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 63.0015 on node 1 payload of packet 127 (0->1), dist: 1611 decoded successfully txPower: 20.9534 rxPower: -91.0549 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 63.0015 Node 1 packet 127 received from node 0 (distance = 1611 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.0549 dB Tx Power: 20.9534 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 63.0016 CalcRxPower ran for packet 128 (1->0) Pos(1)(1694.36:4:1.5) Pos(0)(3305.64:0:1.5) txPower: 20.9211 rxPower: -91.0872 dist: 1611.29 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 63.0017 on node 0 payload of packet 128 (1->0), dist: 1611 decoded successfully txPower: 20.9211 rxPower: -91.0872 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 64 packet 129 sent (0->1), dist: 1639.02 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 64 CalcRxPower ran for packet 129 (0->1) Pos(0)(3319.51:0:1.5) Pos(1)(1680.49:4:1.5) txPower: 20.9826 rxPower: -91.174 dist: 1639.02 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 64.0005 on node 1 payload of packet 129 (0->1), dist: 1639 not decoded txPower: 20.9826 rxPower: -91.174 Snr: -1 TeB: 0.00195312 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 64.001 CalcRxPower ran for packet 129 (0->1) Pos(0)(3319.52:0:1.5) Pos(1)(1680.48:4:1.5) txPower: 20.9963 rxPower: -91.1604 dist: 1639.05 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 64.0015 on node 1 payload of packet 129 (0->1), dist: 1639 not decoded txPower: 20.9963 rxPower: -91.1604 Snr: -1 TeB: 0.00234375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 64.0019 CalcRxPower ran for packet 129 (0->1) Pos(0)(3319.54:0:1.5) Pos(1)(1680.46:4:1.5) txPower: 20.9518 rxPower: -91.205 dist: 1639.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 64.0024 on node 1 payload of packet 129 (0->1), dist: 1639 decoded successfully txPower: 20.9518 rxPower: -91.205 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 64.0024 Node 1 packet 129 received from node 0 (distance = 1639 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.205 dB Tx Power: 20.9518 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 64.0024 CalcRxPower ran for packet 130 (1->0) Pos(1)(1680.46:4:1.5) Pos(0)(3319.54:0:1.5) txPower: 20.9948 rxPower: -91.1621 dist: 1639.09 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 64.0025 on node 0 payload of packet 130 (1->0), dist: 1639 decoded successfully txPower: 20.9948 rxPower: -91.1621 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 65 packet 131 sent (0->1), dist: 1666.8 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 65 CalcRxPower ran for packet 131 (0->1) Pos(0)(3333.4:0:1.5) Pos(1)(1666.6:4:1.5) txPower: 20.967 rxPower: -91.3355 dist: 1666.8 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 65.0005 on node 1 payload of packet 131 (0->1), dist: 1667 decoded successfully txPower: 20.967 rxPower: -91.3355 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 65.0005 Node 1 packet 131 received from node 0 (distance = 1667 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.3355 dB Tx Power: 20.967 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 65.0005 CalcRxPower ran for packet 132 (1->0) Pos(1)(1666.59:4:1.5) Pos(0)(3333.41:0:1.5) txPower: 20.9882 rxPower: -91.3144 dist: 1666.82 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 65.0006 on node 0 payload of packet 132 (1->0), dist: 1667 decoded successfully txPower: 20.9882 rxPower: -91.3144 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 66 packet 133 sent (0->1), dist: 1694.58 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 66 CalcRxPower ran for packet 133 (0->1) Pos(0)(3347.29:0:1.5) Pos(1)(1652.71:4:1.5) txPower: 20.9661 rxPower: -91.48 dist: 1694.58 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 66.0005 on node 1 payload of packet 133 (0->1), dist: 1695 decoded successfully txPower: 20.9661 rxPower: -91.48 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 66.0005 Node 1 packet 133 received from node 0 (distance = 1695 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.48 dB Tx Power: 20.9661 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 66.0005 CalcRxPower ran for packet 134 (1->0) Pos(1)(1652.7:4:1.5) Pos(0)(3347.3:0:1.5) txPower: 20.9677 rxPower: -91.4785 dist: 1694.6 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 66.0006 on node 0 payload of packet 134 (1->0), dist: 1695 decoded successfully txPower: 20.9677 rxPower: -91.4785 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 67 packet 135 sent (0->1), dist: 1722.36 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 67 CalcRxPower ran for packet 135 (0->1) Pos(0)(3361.18:0:1.5) Pos(1)(1638.82:4:1.5) txPower: 20.9645 rxPower: -91.6228 dist: 1722.36 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 67.0005 on node 1 payload of packet 135 (0->1), dist: 1723 not decoded txPower: 20.9645 rxPower: -91.6228 Snr: -1 TeB: 0.00742187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 67.001 CalcRxPower ran for packet 135 (0->1) Pos(0)(3361.19:0:1.5) Pos(1)(1638.81:4:1.5) txPower: 20.9708 rxPower: -91.6167 dist: 1722.39 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 67.0015 on node 1 payload of packet 135 (0->1), dist: 1723 not decoded txPower: 20.9708 rxPower: -91.6167 Snr: -1 TeB: 0.00078125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 67.0023 CalcRxPower ran for packet 135 (0->1) Pos(0)(3361.21:0:1.5) Pos(1)(1638.79:4:1.5) txPower: 20.9759 rxPower: -91.6117 dist: 1722.43 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 67.0028 on node 1 payload of packet 135 (0->1), dist: 1723 decoded successfully txPower: 20.9759 rxPower: -91.6117 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 67.0028 Node 1 packet 135 received from node 0 (distance = 1723 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.6117 dB Tx Power: 20.9759 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 67.0028 CalcRxPower ran for packet 136 (1->0) Pos(1)(1638.78:4:1.5) Pos(0)(3361.22:0:1.5) txPower: 20.8989 rxPower: -91.6888 dist: 1722.44 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 67.0029 on node 0 payload of packet 136 (1->0), dist: 1723 decoded successfully txPower: 20.8989 rxPower: -91.6888 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 68 packet 137 sent (0->1), dist: 1750.14 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 68 CalcRxPower ran for packet 137 (0->1) Pos(0)(3375.07:0:1.5) Pos(1)(1624.93:4:1.5) txPower: 20.9599 rxPower: -91.7664 dist: 1750.14 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 68.0005 on node 1 payload of packet 137 (0->1), dist: 1751 decoded successfully txPower: 20.9599 rxPower: -91.7664 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 68.0005 Node 1 packet 137 received from node 0 (distance = 1751 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.7664 dB Tx Power: 20.9599 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 68.0005 CalcRxPower ran for packet 138 (1->0) Pos(1)(1624.92:4:1.5) Pos(0)(3375.08:0:1.5) txPower: 20.9379 rxPower: -91.7885 dist: 1750.16 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 68.0006 on node 0 payload of packet 138 (1->0), dist: 1751 decoded successfully txPower: 20.9379 rxPower: -91.7885 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 69 packet 139 sent (0->1), dist: 1777.92 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 69 CalcRxPower ran for packet 139 (0->1) Pos(0)(3388.96:0:1.5) Pos(1)(1611.04:4:1.5) txPower: 20.9561 rxPower: -91.907 dist: 1777.92 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 69.0005 on node 1 payload of packet 139 (0->1), dist: 1777 not decoded txPower: 20.9561 rxPower: -91.907 Snr: -1 TeB: 0.00585938 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 69.0011 CalcRxPower ran for packet 139 (0->1) Pos(0)(3388.97:0:1.5) Pos(1)(1611.03:4:1.5) txPower: 20.9255 rxPower: -91.9378 dist: 1777.95 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 69.0015 on node 1 payload of packet 139 (0->1), dist: 1777 not decoded txPower: 20.9255 rxPower: -91.9378 Snr: -1 TeB: 0.00742187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 69.0022 CalcRxPower ran for packet 139 (0->1) Pos(0)(3388.99:0:1.5) Pos(1)(1611.01:4:1.5) txPower: 20.9865 rxPower: -91.8769 dist: 1777.99 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 69.0027 on node 1 payload of packet 139 (0->1), dist: 1777 decoded successfully txPower: 20.9865 rxPower: -91.8769 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 69.0027 Node 1 packet 139 received from node 0 (distance = 1777 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -91.8769 dB Tx Power: 20.9865 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 69.0027 CalcRxPower ran for packet 140 (1->0) Pos(1)(1611:4:1.5) Pos(0)(3389:0:1.5) txPower: 20.9948 rxPower: -91.8687 dist: 1778 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 69.0028 on node 0 payload of packet 140 (1->0), dist: 1777 decoded successfully txPower: 20.9948 rxPower: -91.8687 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 70 packet 141 sent (0->1), dist: 1805.7 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 70 CalcRxPower ran for packet 141 (0->1) Pos(0)(3402.85:0:1.5) Pos(1)(1597.15:4:1.5) txPower: 20.9719 rxPower: -92.0259 dist: 1805.7 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 70.0005 on node 1 payload of packet 141 (0->1), dist: 1805 not decoded txPower: 20.9719 rxPower: -92.0259 Snr: -1 TeB: 0.00117187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 70.0008 CalcRxPower ran for packet 141 (0->1) Pos(0)(3402.86:0:1.5) Pos(1)(1597.14:4:1.5) txPower: 20.9631 rxPower: -92.0348 dist: 1805.73 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 70.0013 on node 1 payload of packet 141 (0->1), dist: 1805 not decoded txPower: 20.9631 rxPower: -92.0348 Snr: -1 TeB: 0.00351563 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 70.0015 CalcRxPower ran for packet 141 (0->1) Pos(0)(3402.87:0:1.5) Pos(1)(1597.13:4:1.5) txPower: 20.9701 rxPower: -92.0279 dist: 1805.75 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 70.002 on node 1 payload of packet 141 (0->1), dist: 1805 decoded successfully txPower: 20.9701 rxPower: -92.0279 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 70.002 Node 1 packet 141 received from node 0 (distance = 1805 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.0279 dB Tx Power: 20.9701 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 70.002 CalcRxPower ran for packet 142 (1->0) Pos(1)(1597.12:4:1.5) Pos(0)(3402.88:0:1.5) txPower: 20.9153 rxPower: -92.0828 dist: 1805.76 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 70.0021 on node 0 payload of packet 142 (1->0), dist: 1805 decoded successfully txPower: 20.9153 rxPower: -92.0828 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 71 packet 143 sent (0->1), dist: 1833.48 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 71 CalcRxPower ran for packet 143 (0->1) Pos(0)(3416.74:0:1.5) Pos(1)(1583.26:4:1.5) txPower: 20.9696 rxPower: -92.1608 dist: 1833.48 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 71.0005 on node 1 payload of packet 143 (0->1), dist: 1833 not decoded txPower: 20.9696 rxPower: -92.1608 Snr: -1 TeB: 0.0015625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 71.001 CalcRxPower ran for packet 143 (0->1) Pos(0)(3416.75:0:1.5) Pos(1)(1583.25:4:1.5) txPower: 20.9791 rxPower: -92.1513 dist: 1833.51 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 71.0014 on node 1 payload of packet 143 (0->1), dist: 1833 not decoded txPower: 20.9791 rxPower: -92.1513 Snr: -1 TeB: 0.00234375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 71.0022 CalcRxPower ran for packet 143 (0->1) Pos(0)(3416.77:0:1.5) Pos(1)(1583.23:4:1.5) txPower: 20.9467 rxPower: -92.1839 dist: 1833.55 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 71.0027 on node 1 payload of packet 143 (0->1), dist: 1833 not decoded txPower: 20.9467 rxPower: -92.1839 Snr: -1 TeB: 0.003125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 71.0042 CalcRxPower ran for packet 143 (0->1) Pos(0)(3416.8:0:1.5) Pos(1)(1583.2:4:1.5) txPower: 20.9886 rxPower: -92.1423 dist: 1833.6 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 71.0047 on node 1 payload of packet 143 (0->1), dist: 1833 not decoded txPower: 20.9886 rxPower: -92.1423 Snr: -1 TeB: 0.00625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 71.0067 CalcRxPower ran for packet 143 (0->1) Pos(0)(3416.83:0:1.5) Pos(1)(1583.17:4:1.5) txPower: 20.9585 rxPower: -92.1727 dist: 1833.67 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 71.0071 on node 1 payload of packet 143 (0->1), dist: 1833 decoded successfully txPower: 20.9585 rxPower: -92.1727 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 71.0071 Node 1 packet 143 received from node 0 (distance = 1833 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.1727 dB Tx Power: 20.9585 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 71.0072 CalcRxPower ran for packet 144 (1->0) Pos(1)(1583.16:4:1.5) Pos(0)(3416.84:0:1.5) txPower: 20.9633 rxPower: -92.1681 dist: 1833.68 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 71.0073 on node 0 payload of packet 144 (1->0), dist: 1833 decoded successfully txPower: 20.9633 rxPower: -92.1681 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 72 packet 145 sent (0->1), dist: 1861.26 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 72 CalcRxPower ran for packet 145 (0->1) Pos(0)(3430.63:0:1.5) Pos(1)(1569.37:4:1.5) txPower: 20.9569 rxPower: -92.3041 dist: 1861.26 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 72.0005 on node 1 payload of packet 145 (0->1), dist: 1861 not decoded txPower: 20.9569 rxPower: -92.3041 Snr: -1 TeB: 0.0199219 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 72.0007 CalcRxPower ran for packet 145 (0->1) Pos(0)(3430.64:0:1.5) Pos(1)(1569.36:4:1.5) txPower: 20.9679 rxPower: -92.2932 dist: 1861.29 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 72.0012 on node 1 payload of packet 145 (0->1), dist: 1861 not decoded txPower: 20.9679 rxPower: -92.2932 Snr: -1 TeB: 0.0101563 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 72.0018 CalcRxPower ran for packet 145 (0->1) Pos(0)(3430.65:0:1.5) Pos(1)(1569.35:4:1.5) txPower: 20.96 rxPower: -92.3012 dist: 1861.31 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 72.0022 on node 1 payload of packet 145 (0->1), dist: 1861 decoded successfully txPower: 20.96 rxPower: -92.3012 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 72.0022 Node 1 packet 145 received from node 0 (distance = 1861 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.3012 dB Tx Power: 20.96 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 72.0023 CalcRxPower ran for packet 146 (1->0) Pos(1)(1569.34:4:1.5) Pos(0)(3430.66:0:1.5) txPower: 21.0147 rxPower: -92.2466 dist: 1861.33 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 72.0024 on node 0 payload of packet 146 (1->0), dist: 1861 decoded successfully txPower: 21.0147 rxPower: -92.2466 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 73 packet 147 sent (0->1), dist: 1889.04 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 73 CalcRxPower ran for packet 147 (0->1) Pos(0)(3444.52:0:1.5) Pos(1)(1555.48:4:1.5) txPower: 20.9742 rxPower: -92.4155 dist: 1889.04 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 73.0005 on node 1 payload of packet 147 (0->1), dist: 1889 not decoded txPower: 20.9742 rxPower: -92.4155 Snr: -1 TeB: 0.00507813 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 73.0008 CalcRxPower ran for packet 147 (0->1) Pos(0)(3444.53:0:1.5) Pos(1)(1555.47:4:1.5) txPower: 20.9667 rxPower: -92.423 dist: 1889.07 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 73.0012 on node 1 payload of packet 147 (0->1), dist: 1889 not decoded txPower: 20.9667 rxPower: -92.423 Snr: -1 TeB: 0.00742187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 73.0017 CalcRxPower ran for packet 147 (0->1) Pos(0)(3444.54:0:1.5) Pos(1)(1555.46:4:1.5) txPower: 20.9365 rxPower: -92.4534 dist: 1889.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 73.0022 on node 1 payload of packet 147 (0->1), dist: 1889 not decoded txPower: 20.9365 rxPower: -92.4534 Snr: -1 TeB: 0.0199219 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 73.003 CalcRxPower ran for packet 147 (0->1) Pos(0)(3444.56:0:1.5) Pos(1)(1555.44:4:1.5) txPower: 20.9772 rxPower: -92.4128 dist: 1889.13 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 73.0035 on node 1 payload of packet 147 (0->1), dist: 1889 not decoded txPower: 20.9772 rxPower: -92.4128 Snr: -1 TeB: 0.00117187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 73.0043 CalcRxPower ran for packet 147 (0->1) Pos(0)(3444.58:0:1.5) Pos(1)(1555.42:4:1.5) txPower: 20.9877 rxPower: -92.4025 dist: 1889.16 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 73.0048 on node 1 payload of packet 147 (0->1), dist: 1889 decoded successfully txPower: 20.9877 rxPower: -92.4025 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 73.0048 Node 1 packet 147 received from node 0 (distance = 1889 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.4025 dB Tx Power: 20.9877 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 73.0048 CalcRxPower ran for packet 148 (1->0) Pos(1)(1555.41:4:1.5) Pos(0)(3444.59:0:1.5) txPower: 20.9067 rxPower: -92.4836 dist: 1889.18 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 73.0049 on node 0 payload of packet 148 (1->0), dist: 1889 decoded successfully txPower: 20.9067 rxPower: -92.4836 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 74 packet 149 sent (0->1), dist: 1916.82 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 74 CalcRxPower ran for packet 149 (0->1) Pos(0)(3458.41:0:1.5) Pos(1)(1541.59:4:1.5) txPower: 20.9526 rxPower: -92.5638 dist: 1916.82 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 74.0005 on node 1 payload of packet 149 (0->1), dist: 1917 not decoded txPower: 20.9526 rxPower: -92.5638 Snr: -1 TeB: 0.0136719 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 74.0008 CalcRxPower ran for packet 149 (0->1) Pos(0)(3458.42:0:1.5) Pos(1)(1541.58:4:1.5) txPower: 20.9682 rxPower: -92.5483 dist: 1916.85 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 74.0013 on node 1 payload of packet 149 (0->1), dist: 1917 decoded successfully txPower: 20.9682 rxPower: -92.5483 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 74.0013 Node 1 packet 149 received from node 0 (distance = 1917 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.5483 dB Tx Power: 20.9682 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 74.0013 CalcRxPower ran for packet 150 (1->0) Pos(1)(1541.57:4:1.5) Pos(0)(3458.43:0:1.5) txPower: 20.9843 rxPower: -92.5323 dist: 1916.86 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 74.0014 on node 0 payload of packet 150 (1->0), dist: 1917 decoded successfully txPower: 20.9843 rxPower: -92.5323 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 75 packet 151 sent (0->1), dist: 1944.6 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 75 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.3:0:1.5) Pos(1)(1527.7:4:1.5) txPower: 20.947 rxPower: -92.6944 dist: 1944.6 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 75.001 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.31:0:1.5) Pos(1)(1527.69:4:1.5) txPower: 20.9522 rxPower: -92.6894 dist: 1944.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 75.0014 on node 1 payload of packet 151 (0->1), dist: 1945 not decoded txPower: 20.9522 rxPower: -92.6894 Snr: -1 TeB: 0.00859375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 75.0021 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.33:0:1.5) Pos(1)(1527.67:4:1.5) txPower: 20.9766 rxPower: -92.6651 dist: 1944.66 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 75.0026 on node 1 payload of packet 151 (0->1), dist: 1945 not decoded txPower: 20.9766 rxPower: -92.6651 Snr: -1 TeB: 0.0113281 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 75.004 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.36:0:1.5) Pos(1)(1527.64:4:1.5) txPower: 20.9685 rxPower: -92.6735 dist: 1944.72 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 75.0045 on node 1 payload of packet 151 (0->1), dist: 1945 not decoded txPower: 20.9685 rxPower: -92.6735 Snr: -1 TeB: 0.0167969 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 75.0049 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.37:0:1.5) Pos(1)(1527.63:4:1.5) txPower: 20.9683 rxPower: -92.6738 dist: 1944.74 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 75.0054 on node 1 payload of packet 151 (0->1), dist: 1945 not decoded txPower: 20.9683 rxPower: -92.6738 Snr: -1 TeB: 0.00703125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 75.0061 CalcRxPower ran for packet 151 (0->1) Pos(0)(3472.38:0:1.5) Pos(1)(1527.62:4:1.5) txPower: 20.9524 rxPower: -92.6898 dist: 1944.77 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 75.0066 on node 1 payload of packet 151 (0->1), dist: 1945 decoded successfully txPower: 20.9524 rxPower: -92.6898 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 75.0066 Node 1 packet 151 received from node 0 (distance = 1945 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.6898 dB Tx Power: 20.9524 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 75.0066 CalcRxPower ran for packet 152 (1->0) Pos(1)(1527.61:4:1.5) Pos(0)(3472.39:0:1.5) txPower: 20.8792 rxPower: -92.7631 dist: 1944.79 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 75.0067 on node 0 payload of packet 152 (1->0), dist: 1945 decoded successfully txPower: 20.8792 rxPower: -92.7631 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 76 packet 153 sent (0->1), dist: 1972.38 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 76 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.19:0:1.5) Pos(1)(1513.81:4:1.5) txPower: 20.9495 rxPower: -92.8151 dist: 1972.38 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0005 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9495 rxPower: -92.8151 Snr: -1 TeB: 0.009375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.001 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.2:0:1.5) Pos(1)(1513.8:4:1.5) txPower: 20.9612 rxPower: -92.8036 dist: 1972.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0015 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9612 rxPower: -92.8036 Snr: -1 TeB: 0.00429688 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.0019 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.22:0:1.5) Pos(1)(1513.78:4:1.5) txPower: 20.9608 rxPower: -92.8041 dist: 1972.44 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0024 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9608 rxPower: -92.8041 Snr: -1 TeB: 0.0140625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.0031 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.23:0:1.5) Pos(1)(1513.77:4:1.5) txPower: 20.971 rxPower: -92.794 dist: 1972.47 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0036 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.971 rxPower: -92.794 Snr: -1 TeB: 0.0222656 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.004 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.25:0:1.5) Pos(1)(1513.75:4:1.5) txPower: 20.9857 rxPower: -92.7795 dist: 1972.5 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0045 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9857 rxPower: -92.7795 Snr: -1 TeB: 0.00351563 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.0053 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.26:0:1.5) Pos(1)(1513.74:4:1.5) txPower: 20.9739 rxPower: -92.7914 dist: 1972.53 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0057 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9739 rxPower: -92.7914 Snr: -1 TeB: 0.0113281 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 76.0068 CalcRxPower ran for packet 153 (0->1) Pos(0)(3486.28:0:1.5) Pos(1)(1513.72:4:1.5) txPower: 20.9217 rxPower: -92.8438 dist: 1972.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 76.0073 on node 1 payload of packet 153 (0->1), dist: 1973 not decoded txPower: 20.9217 rxPower: -92.8438 Snr: -1 TeB: 0.0101563 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 77 packet 154 sent (0->1), dist: 2000.16 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 77 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.08:0:1.5) Pos(1)(1499.92:4:1.5) txPower: 20.9751 rxPower: -92.911 dist: 2000.16 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0005 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9751 rxPower: -92.911 Snr: -1 TeB: 0.0230469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0007 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.09:0:1.5) Pos(1)(1499.91:4:1.5) txPower: 20.9579 rxPower: -92.9283 dist: 2000.18 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0012 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9579 rxPower: -92.9283 Snr: -1 TeB: 0.00546875 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0014 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.1:0:1.5) Pos(1)(1499.9:4:1.5) txPower: 20.9374 rxPower: -92.9489 dist: 2000.2 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0019 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9374 rxPower: -92.9489 Snr: -1 TeB: 0.00234375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0035 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.13:0:1.5) Pos(1)(1499.87:4:1.5) txPower: 20.9506 rxPower: -92.9359 dist: 2000.26 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.004 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9506 rxPower: -92.9359 Snr: -1 TeB: 0.00390625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0072 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.18:0:1.5) Pos(1)(1499.82:4:1.5) txPower: 20.9558 rxPower: -92.9312 dist: 2000.36 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0077 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9558 rxPower: -92.9312 Snr: -1 TeB: 0.0105469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0142 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.28:0:1.5) Pos(1)(1499.72:4:1.5) txPower: 20.9817 rxPower: -92.9062 dist: 2000.56 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0147 on node 1 payload of packet 154 (0->1), dist: 2001 not decoded txPower: 20.9817 rxPower: -92.9062 Snr: -1 TeB: 0.0355469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 77.0153 CalcRxPower ran for packet 154 (0->1) Pos(0)(3500.29:0:1.5) Pos(1)(1499.71:4:1.5) txPower: 20.9737 rxPower: -92.9143 dist: 2000.59 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 77.0158 on node 1 payload of packet 154 (0->1), dist: 2001 decoded successfully txPower: 20.9737 rxPower: -92.9143 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 77.0158 Node 1 packet 154 received from node 0 (distance = 2001 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -92.9143 dB Tx Power: 20.9737 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 77.0158 CalcRxPower ran for packet 155 (1->0) Pos(1)(1499.7:4:1.5) Pos(0)(3500.3:0:1.5) txPower: 20.9786 rxPower: -92.9095 dist: 2000.6 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 77.0159 on node 0 payload of packet 155 (1->0), dist: 2001 decoded successfully txPower: 20.9786 rxPower: -92.9095 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 78 packet 156 sent (0->1), dist: 2027.94 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 78 CalcRxPower ran for packet 156 (0->1) Pos(0)(3513.97:0:1.5) Pos(1)(1486.03:4:1.5) txPower: 20.9685 rxPower: -93.0374 dist: 2027.94 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0005 on node 1 payload of packet 156 (0->1), dist: 2027 not decoded txPower: 20.9685 rxPower: -93.0374 Snr: -1 TeB: 0.0199219 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0009 CalcRxPower ran for packet 156 (0->1) Pos(0)(3513.98:0:1.5) Pos(1)(1486.02:4:1.5) txPower: 20.9671 rxPower: -93.0389 dist: 2027.97 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0014 on node 1 payload of packet 156 (0->1), dist: 2027 not decoded txPower: 20.9671 rxPower: -93.0389 Snr: -1 TeB: 0.0160156 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0017 CalcRxPower ran for packet 156 (0->1) Pos(0)(3513.99:0:1.5) Pos(1)(1486.01:4:1.5) txPower: 20.9704 rxPower: -93.0357 dist: 2027.99 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0022 on node 1 payload of packet 156 (0->1), dist: 2027 not decoded txPower: 20.9704 rxPower: -93.0357 Snr: -1 TeB: 0.028125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0027 CalcRxPower ran for packet 156 (0->1) Pos(0)(3514.01:0:1.5) Pos(1)(1485.99:4:1.5) txPower: 20.9449 rxPower: -93.0613 dist: 2028.02 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0032 on node 1 payload of packet 156 (0->1), dist: 2029 not decoded txPower: 20.9449 rxPower: -93.0613 Snr: -1 TeB: 0.01875 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0045 CalcRxPower ran for packet 156 (0->1) Pos(0)(3514.03:0:1.5) Pos(1)(1485.97:4:1.5) txPower: 20.9765 rxPower: -93.03 dist: 2028.07 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.005 on node 1 payload of packet 156 (0->1), dist: 2029 not decoded txPower: 20.9765 rxPower: -93.03 Snr: -1 TeB: 0.034375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0113 CalcRxPower ran for packet 156 (0->1) Pos(0)(3514.13:0:1.5) Pos(1)(1485.87:4:1.5) txPower: 20.983 rxPower: -93.0243 dist: 2028.26 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0118 on node 1 payload of packet 156 (0->1), dist: 2029 not decoded txPower: 20.983 rxPower: -93.0243 Snr: -1 TeB: 0.00664062 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 78.0164 CalcRxPower ran for packet 156 (0->1) Pos(0)(3514.2:0:1.5) Pos(1)(1485.8:4:1.5) txPower: 20.9459 rxPower: -93.062 dist: 2028.4 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 78.0169 on node 1 payload of packet 156 (0->1), dist: 2029 not decoded txPower: 20.9459 rxPower: -93.062 Snr: -1 TeB: 0.0105469 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 79 packet 157 sent (0->1), dist: 2055.72 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 79 CalcRxPower ran for packet 157 (0->1) Pos(0)(3527.86:0:1.5) Pos(1)(1472.14:4:1.5) txPower: 20.936 rxPower: -93.1881 dist: 2055.72 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 79.0007 CalcRxPower ran for packet 157 (0->1) Pos(0)(3527.87:0:1.5) Pos(1)(1472.13:4:1.5) txPower: 20.9879 rxPower: -93.1363 dist: 2055.74 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 79.0012 on node 1 payload of packet 157 (0->1), dist: 2055 not decoded txPower: 20.9879 rxPower: -93.1363 Snr: -1 TeB: 0.00820313 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 79.0015 CalcRxPower ran for packet 157 (0->1) Pos(0)(3527.88:0:1.5) Pos(1)(1472.12:4:1.5) txPower: 20.9686 rxPower: -93.1557 dist: 2055.77 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 79.002 on node 1 payload of packet 157 (0->1), dist: 2055 decoded successfully txPower: 20.9686 rxPower: -93.1557 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 320
+-AtApp 79.002 Node 1 packet 157 received from node 0 (distance = 2055 m) with SNR = -1 and Packet Error Rate = 0 RX Power: -93.1557 dB Tx Power: 20.9686 dB TTL: 64/64 HOP count = 0
+PhySimWifiUniformChannel::Send: +AtPhy 79.002 CalcRxPower ran for packet 158 (1->0) Pos(1)(1472.11:4:1.5) Pos(0)(3527.89:0:1.5) txPower: 20.9015 rxPower: -93.2229 dist: 2055.78 relSpeed: 27.78 size: 14 type CTL_ACK
+PhySimWifiPhy::EndRx: -AtPhy 79.0021 on node 0 payload of packet 158 (1->0), dist: 2055 decoded successfully txPower: 20.9015 rxPower: -93.2229 Snr: -1 TeB: 0 relativeSpeed: 27.78 packetSizePhy: 14
++AtApp 80 packet 159 sent (0->1), dist: 2083.5 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 80 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.75:0:1.5) Pos(1)(1458.25:4:1.5) txPower: 20.9523 rxPower: -93.2884 dist: 2083.5 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.0005 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.9523 rxPower: -93.2884 Snr: -1 TeB: 0.0117188 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0007 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.76:0:1.5) Pos(1)(1458.24:4:1.5) txPower: 20.9808 rxPower: -93.26 dist: 2083.52 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.0012 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.9808 rxPower: -93.26 Snr: -1 TeB: 0.0128906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0021 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.78:0:1.5) Pos(1)(1458.22:4:1.5) txPower: 20.9719 rxPower: -93.269 dist: 2083.56 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.0026 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.9719 rxPower: -93.269 Snr: -1 TeB: 0.00351563 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0039 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.8:0:1.5) Pos(1)(1458.2:4:1.5) txPower: 20.9989 rxPower: -93.2423 dist: 2083.61 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.0043 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.9989 rxPower: -93.2423 Snr: -1 TeB: 0.123438 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0076 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.86:0:1.5) Pos(1)(1458.14:4:1.5) txPower: 20.9364 rxPower: -93.3052 dist: 2083.72 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.0081 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.9364 rxPower: -93.3052 Snr: -1 TeB: 0.0179687 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0135 CalcRxPower ran for packet 159 (0->1) Pos(0)(3541.94:0:1.5) Pos(1)(1458.06:4:1.5) txPower: 20.966 rxPower: -93.2763 dist: 2083.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.014 on node 1 payload of packet 159 (0->1), dist: 2083 not decoded txPower: 20.966 rxPower: -93.2763 Snr: -1 TeB: 0.0175781 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 80.0195 CalcRxPower ran for packet 159 (0->1) Pos(0)(3542.02:0:1.5) Pos(1)(1457.98:4:1.5) txPower: 20.9774 rxPower: -93.2656 dist: 2084.05 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 80.02 on node 1 payload of packet 159 (0->1), dist: 2085 not decoded txPower: 20.9774 rxPower: -93.2656 Snr: -1 TeB: 0.505469 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 81 packet 160 sent (0->1), dist: 2111.28 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 81 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.64:0:1.5) Pos(1)(1444.36:4:1.5) txPower: 20.9642 rxPower: -93.3916 dist: 2111.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.0005 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9642 rxPower: -93.3916 Snr: -1 TeB: 0.0367188 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 81.0011 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.65:0:1.5) Pos(1)(1444.35:4:1.5) txPower: 20.9625 rxPower: -93.3934 dist: 2111.31 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 81.0025 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.67:0:1.5) Pos(1)(1444.33:4:1.5) txPower: 20.9761 rxPower: -93.38 dist: 2111.35 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.003 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9761 rxPower: -93.38 Snr: -1 TeB: 0.0578125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 81.0047 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.71:0:1.5) Pos(1)(1444.29:4:1.5) txPower: 20.9711 rxPower: -93.3852 dist: 2111.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.0052 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9711 rxPower: -93.3852 Snr: -1 TeB: 0.0207031 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 81.0079 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.75:0:1.5) Pos(1)(1444.25:4:1.5) txPower: 20.9588 rxPower: -93.3979 dist: 2111.5 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.0083 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9588 rxPower: -93.3979 Snr: -1 TeB: 0.0285156 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 81.0148 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.85:0:1.5) Pos(1)(1444.15:4:1.5) txPower: 20.9303 rxPower: -93.4271 dist: 2111.7 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.0153 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9303 rxPower: -93.4271 Snr: -1 TeB: 0.00664062 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 81.021 CalcRxPower ran for packet 160 (0->1) Pos(0)(3555.93:0:1.5) Pos(1)(1444.07:4:1.5) txPower: 20.9766 rxPower: -93.3815 dist: 2111.87 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 81.0215 on node 1 payload of packet 160 (0->1), dist: 2111 not decoded txPower: 20.9766 rxPower: -93.3815 Snr: -1 TeB: 0.0078125 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 82 packet 161 sent (0->1), dist: 2139.06 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 82 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.53:0:1.5) Pos(1)(1430.47:4:1.5) txPower: 20.9625 rxPower: -93.5068 dist: 2139.06 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0005 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9625 rxPower: -93.5068 Snr: -1 TeB: 0.0117188 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.0009 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.54:0:1.5) Pos(1)(1430.46:4:1.5) txPower: 20.992 rxPower: -93.4774 dist: 2139.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0013 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.992 rxPower: -93.4774 Snr: -1 TeB: 0.0464844 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.002 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.56:0:1.5) Pos(1)(1430.44:4:1.5) txPower: 20.9789 rxPower: -93.4906 dist: 2139.12 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0025 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9789 rxPower: -93.4906 Snr: -1 TeB: 0.0144531 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.0042 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.59:0:1.5) Pos(1)(1430.41:4:1.5) txPower: 20.9597 rxPower: -93.5101 dist: 2139.18 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0046 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9597 rxPower: -93.5101 Snr: -1 TeB: 0.0335937 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.0078 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.64:0:1.5) Pos(1)(1430.36:4:1.5) txPower: 20.9462 rxPower: -93.524 dist: 2139.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0082 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9462 rxPower: -93.524 Snr: -1 TeB: 0.0230469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.0112 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.69:0:1.5) Pos(1)(1430.31:4:1.5) txPower: 20.9419 rxPower: -93.5286 dist: 2139.38 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0117 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9419 rxPower: -93.5286 Snr: -1 TeB: 0.00703125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 82.0119 CalcRxPower ran for packet 161 (0->1) Pos(0)(3569.7:0:1.5) Pos(1)(1430.3:4:1.5) txPower: 20.9773 rxPower: -93.4933 dist: 2139.39 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 82.0124 on node 1 payload of packet 161 (0->1), dist: 2139 not decoded txPower: 20.9773 rxPower: -93.4933 Snr: -1 TeB: 0.021875 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 83 packet 162 sent (0->1), dist: 2166.84 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 83 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.42:0:1.5) Pos(1)(1416.58:4:1.5) txPower: 20.9842 rxPower: -93.5972 dist: 2166.84 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0005 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9842 rxPower: -93.5972 Snr: -1 TeB: 0.0191406 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.0008 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.43:0:1.5) Pos(1)(1416.57:4:1.5) txPower: 20.9363 rxPower: -93.6452 dist: 2166.87 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0013 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9363 rxPower: -93.6452 Snr: -1 TeB: 0.0296875 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.0017 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.44:0:1.5) Pos(1)(1416.56:4:1.5) txPower: 20.9693 rxPower: -93.6122 dist: 2166.89 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0022 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9693 rxPower: -93.6122 Snr: -1 TeB: 0.0152344 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.0024 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.45:0:1.5) Pos(1)(1416.55:4:1.5) txPower: 20.9576 rxPower: -93.624 dist: 2166.91 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0029 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9576 rxPower: -93.624 Snr: -1 TeB: 0.209375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.004 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.48:0:1.5) Pos(1)(1416.52:4:1.5) txPower: 20.9757 rxPower: -93.6061 dist: 2166.95 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0045 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9757 rxPower: -93.6061 Snr: -1 TeB: 0.0160156 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.0083 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.54:0:1.5) Pos(1)(1416.46:4:1.5) txPower: 20.9286 rxPower: -93.6537 dist: 2167.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.0088 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9286 rxPower: -93.6537 Snr: -1 TeB: 0.00507813 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 83.0145 CalcRxPower ran for packet 162 (0->1) Pos(0)(3583.62:0:1.5) Pos(1)(1416.38:4:1.5) txPower: 20.9929 rxPower: -93.5901 dist: 2167.25 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 83.015 on node 1 payload of packet 162 (0->1), dist: 2167 not decoded txPower: 20.9929 rxPower: -93.5901 Snr: -1 TeB: 0.00898437 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 84 packet 163 sent (0->1), dist: 2194.62 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 84 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.31:0:1.5) Pos(1)(1402.69:4:1.5) txPower: 20.974 rxPower: -93.718 dist: 2194.62 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 84.0005 on node 1 payload of packet 163 (0->1), dist: 2195 not decoded txPower: 20.974 rxPower: -93.718 Snr: -1 TeB: 0.0328125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 84.0008 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.32:0:1.5) Pos(1)(1402.68:4:1.5) txPower: 20.9679 rxPower: -93.7242 dist: 2194.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 84.0013 on node 1 payload of packet 163 (0->1), dist: 2195 not decoded txPower: 20.9679 rxPower: -93.7242 Snr: -1 TeB: 0.0214844 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 84.0017 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.33:0:1.5) Pos(1)(1402.67:4:1.5) txPower: 20.9648 rxPower: -93.7274 dist: 2194.67 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 84.004 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.37:0:1.5) Pos(1)(1402.63:4:1.5) txPower: 20.954 rxPower: -93.7385 dist: 2194.73 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 84.006 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.39:0:1.5) Pos(1)(1402.61:4:1.5) txPower: 20.9915 rxPower: -93.7012 dist: 2194.79 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 84.0065 on node 1 payload of packet 163 (0->1), dist: 2195 not decoded txPower: 20.9915 rxPower: -93.7012 Snr: -1 TeB: 0.00976562 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 84.0117 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.47:0:1.5) Pos(1)(1402.53:4:1.5) txPower: 20.9779 rxPower: -93.7154 dist: 2194.95 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 84.0122 on node 1 payload of packet 163 (0->1), dist: 2195 not decoded txPower: 20.9779 rxPower: -93.7154 Snr: -1 TeB: 0.00976562 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 84.0163 CalcRxPower ran for packet 163 (0->1) Pos(0)(3597.54:0:1.5) Pos(1)(1402.46:4:1.5) txPower: 20.9932 rxPower: -93.7006 dist: 2195.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 84.0168 on node 1 payload of packet 163 (0->1), dist: 2195 not decoded txPower: 20.9932 rxPower: -93.7006 Snr: -1 TeB: 0.0410156 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 85 packet 164 sent (0->1), dist: 2222.4 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 85 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.2:0:1.5) Pos(1)(1388.8:4:1.5) txPower: 20.9887 rxPower: -93.8126 dist: 2222.4 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 85.0005 on node 1 payload of packet 164 (0->1), dist: 2223 not decoded txPower: 20.9887 rxPower: -93.8126 Snr: -1 TeB: 0.0230469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 85.0009 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.21:0:1.5) Pos(1)(1388.79:4:1.5) txPower: 20.9335 rxPower: -93.8679 dist: 2222.43 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 85.0014 on node 1 payload of packet 164 (0->1), dist: 2223 not decoded txPower: 20.9335 rxPower: -93.8679 Snr: -1 TeB: 0.0117188 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 85.0022 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.23:0:1.5) Pos(1)(1388.77:4:1.5) txPower: 20.9538 rxPower: -93.8477 dist: 2222.46 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 85.0041 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.26:0:1.5) Pos(1)(1388.74:4:1.5) txPower: 20.9861 rxPower: -93.8157 dist: 2222.52 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 85.0081 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.31:0:1.5) Pos(1)(1388.69:4:1.5) txPower: 20.973 rxPower: -93.8292 dist: 2222.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 85.0137 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.39:0:1.5) Pos(1)(1388.61:4:1.5) txPower: 20.9983 rxPower: -93.8044 dist: 2222.78 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 85.0142 on node 1 payload of packet 164 (0->1), dist: 2223 not decoded txPower: 20.9983 rxPower: -93.8044 Snr: -1 TeB: 0.0253906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 85.0184 CalcRxPower ran for packet 164 (0->1) Pos(0)(3611.46:0:1.5) Pos(1)(1388.54:4:1.5) txPower: 20.9752 rxPower: -93.8281 dist: 2222.92 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 85.0189 on node 1 payload of packet 164 (0->1), dist: 2223 not decoded txPower: 20.9752 rxPower: -93.8281 Snr: -1 TeB: 0.046875 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 86 packet 165 sent (0->1), dist: 2250.18 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 86 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.09:0:1.5) Pos(1)(1374.91:4:1.5) txPower: 20.9658 rxPower: -93.9434 dist: 2250.18 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 86.0005 on node 1 payload of packet 165 (0->1), dist: 2251 not decoded txPower: 20.9658 rxPower: -93.9434 Snr: -1 TeB: 0.0265625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 86.001 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.1:0:1.5) Pos(1)(1374.9:4:1.5) txPower: 20.9474 rxPower: -93.9619 dist: 2250.21 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 86.0015 on node 1 payload of packet 165 (0->1), dist: 2251 not decoded txPower: 20.9474 rxPower: -93.9619 Snr: -1 TeB: 0.499609 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 86.0022 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.12:0:1.5) Pos(1)(1374.88:4:1.5) txPower: 20.9626 rxPower: -93.9468 dist: 2250.25 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 86.0037 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.14:0:1.5) Pos(1)(1374.86:4:1.5) txPower: 20.9686 rxPower: -93.941 dist: 2250.29 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 86.0042 on node 1 payload of packet 165 (0->1), dist: 2251 not decoded txPower: 20.9686 rxPower: -93.941 Snr: -1 TeB: 0.0183594 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 86.0058 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.17:0:1.5) Pos(1)(1374.83:4:1.5) txPower: 20.951 rxPower: -93.9588 dist: 2250.34 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 86.0063 on node 1 payload of packet 165 (0->1), dist: 2251 not decoded txPower: 20.951 rxPower: -93.9588 Snr: -1 TeB: 0.0261719 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 86.0081 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.2:0:1.5) Pos(1)(1374.8:4:1.5) txPower: 20.9764 rxPower: -93.9337 dist: 2250.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 86.0138 CalcRxPower ran for packet 165 (0->1) Pos(0)(3625.28:0:1.5) Pos(1)(1374.72:4:1.5) txPower: 20.9716 rxPower: -93.939 dist: 2250.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 86.0142 on node 1 payload of packet 165 (0->1), dist: 2251 not decoded txPower: 20.9716 rxPower: -93.939 Snr: -1 TeB: 0.040625 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 87 packet 166 sent (0->1), dist: 2277.96 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 87 CalcRxPower ran for packet 166 (0->1) Pos(0)(3638.98:0:1.5) Pos(1)(1361.02:4:1.5) txPower: 20.9866 rxPower: -94.0291 dist: 2277.96 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 87.0005 on node 1 payload of packet 166 (0->1), dist: 2277 not decoded txPower: 20.9866 rxPower: -94.0291 Snr: -1 TeB: 0.0121094 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 87.001 CalcRxPower ran for packet 166 (0->1) Pos(0)(3638.99:0:1.5) Pos(1)(1361.01:4:1.5) txPower: 20.9647 rxPower: -94.0512 dist: 2277.99 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 87.0015 on node 1 payload of packet 166 (0->1), dist: 2277 not decoded txPower: 20.9647 rxPower: -94.0512 Snr: -1 TeB: 0.0128906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 87.0019 CalcRxPower ran for packet 166 (0->1) Pos(0)(3639.01:0:1.5) Pos(1)(1360.99:4:1.5) txPower: 20.9314 rxPower: -94.0846 dist: 2278.02 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 87.0034 CalcRxPower ran for packet 166 (0->1) Pos(0)(3639.03:0:1.5) Pos(1)(1360.97:4:1.5) txPower: 20.9418 rxPower: -94.0743 dist: 2278.06 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 87.0039 on node 1 payload of packet 166 (0->1), dist: 2279 not decoded txPower: 20.9418 rxPower: -94.0743 Snr: -1 TeB: 0.0691406 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 87.0047 CalcRxPower ran for packet 166 (0->1) Pos(0)(3639.05:0:1.5) Pos(1)(1360.95:4:1.5) txPower: 20.9647 rxPower: -94.0516 dist: 2278.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 87.006 CalcRxPower ran for packet 166 (0->1) Pos(0)(3639.06:0:1.5) Pos(1)(1360.94:4:1.5) txPower: 20.9795 rxPower: -94.0369 dist: 2278.13 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 87.0065 on node 1 payload of packet 166 (0->1), dist: 2279 not decoded txPower: 20.9795 rxPower: -94.0369 Snr: -1 TeB: 0.0394531 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 87.0091 CalcRxPower ran for packet 166 (0->1) Pos(0)(3639.11:0:1.5) Pos(1)(1360.89:4:1.5) txPower: 20.9929 rxPower: -94.0238 dist: 2278.22 relSpeed: 27.78 size: 320 type DATA
++AtApp 88 packet 167 sent (0->1), dist: 2305.74 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 88 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.87:0:1.5) Pos(1)(1347.13:4:1.5) txPower: 20.9902 rxPower: -94.1309 dist: 2305.74 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 88.0005 on node 1 payload of packet 167 (0->1), dist: 2305 not decoded txPower: 20.9902 rxPower: -94.1309 Snr: -1 TeB: 0.0597656 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 88.0008 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.88:0:1.5) Pos(1)(1347.12:4:1.5) txPower: 20.9681 rxPower: -94.1531 dist: 2305.77 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 88.0013 on node 1 payload of packet 167 (0->1), dist: 2305 not decoded txPower: 20.9681 rxPower: -94.1531 Snr: -1 TeB: 0.0625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 88.002 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.9:0:1.5) Pos(1)(1347.1:4:1.5) txPower: 20.9703 rxPower: -94.151 dist: 2305.8 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 88.0025 on node 1 payload of packet 167 (0->1), dist: 2305 not decoded txPower: 20.9703 rxPower: -94.151 Snr: -1 TeB: 0.0304687 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 88.0037 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.92:0:1.5) Pos(1)(1347.08:4:1.5) txPower: 20.965 rxPower: -94.1564 dist: 2305.85 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 88.0047 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.94:0:1.5) Pos(1)(1347.06:4:1.5) txPower: 20.9695 rxPower: -94.1521 dist: 2305.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 88.0087 CalcRxPower ran for packet 167 (0->1) Pos(0)(3652.99:0:1.5) Pos(1)(1347.01:4:1.5) txPower: 20.973 rxPower: -94.149 dist: 2305.99 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 88.0151 CalcRxPower ran for packet 167 (0->1) Pos(0)(3653.08:0:1.5) Pos(1)(1346.92:4:1.5) txPower: 20.9767 rxPower: -94.1459 dist: 2306.16 relSpeed: 27.78 size: 320 type DATA
++AtApp 89 packet 168 sent (0->1), dist: 2333.52 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 89 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.76:0:1.5) Pos(1)(1333.24:4:1.5) txPower: 20.9751 rxPower: -94.2499 dist: 2333.52 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 89.0005 on node 1 payload of packet 168 (0->1), dist: 2333 not decoded txPower: 20.9751 rxPower: -94.2499 Snr: -1 TeB: 0.0476562 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 89.0008 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.77:0:1.5) Pos(1)(1333.23:4:1.5) txPower: 20.9486 rxPower: -94.2766 dist: 2333.55 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 89.0013 on node 1 payload of packet 168 (0->1), dist: 2333 not decoded txPower: 20.9486 rxPower: -94.2766 Snr: -1 TeB: 0.05625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 89.0023 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.79:0:1.5) Pos(1)(1333.21:4:1.5) txPower: 20.9916 rxPower: -94.2337 dist: 2333.59 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 89.0033 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.81:0:1.5) Pos(1)(1333.19:4:1.5) txPower: 20.9945 rxPower: -94.2309 dist: 2333.62 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 89.0038 on node 1 payload of packet 168 (0->1), dist: 2333 not decoded txPower: 20.9945 rxPower: -94.2309 Snr: -1 TeB: 0.0800781 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 89.0046 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.82:0:1.5) Pos(1)(1333.18:4:1.5) txPower: 20.9766 rxPower: -94.249 dist: 2333.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 89.0055 on node 1 payload of packet 168 (0->1), dist: 2333 not decoded txPower: 20.9766 rxPower: -94.249 Snr: -1 TeB: 0.488281 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 89.0066 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.85:0:1.5) Pos(1)(1333.15:4:1.5) txPower: 20.9569 rxPower: -94.2688 dist: 2333.71 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 89.0087 CalcRxPower ran for packet 168 (0->1) Pos(0)(3666.88:0:1.5) Pos(1)(1333.12:4:1.5) txPower: 20.9809 rxPower: -94.2451 dist: 2333.76 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 89.0092 on node 1 payload of packet 168 (0->1), dist: 2333 not decoded txPower: 20.9809 rxPower: -94.2451 Snr: -1 TeB: 0.0375 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 90 packet 169 sent (0->1), dist: 2361.3 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 90 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.65:0:1.5) Pos(1)(1319.35:4:1.5) txPower: 20.968 rxPower: -94.3598 dist: 2361.3 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 90.0007 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.66:0:1.5) Pos(1)(1319.34:4:1.5) txPower: 20.9609 rxPower: -94.367 dist: 2361.32 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0012 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9609 rxPower: -94.367 Snr: -1 TeB: 0.0300781 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 90.0017 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.67:0:1.5) Pos(1)(1319.33:4:1.5) txPower: 20.9719 rxPower: -94.3561 dist: 2361.35 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0021 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9719 rxPower: -94.3561 Snr: -1 TeB: 0.0742188 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 90.003 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.69:0:1.5) Pos(1)(1319.31:4:1.5) txPower: 20.9647 rxPower: -94.3634 dist: 2361.39 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0035 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9647 rxPower: -94.3634 Snr: -1 TeB: 0.034375 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 90.0054 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.73:0:1.5) Pos(1)(1319.27:4:1.5) txPower: 20.9647 rxPower: -94.3637 dist: 2361.45 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0059 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9647 rxPower: -94.3637 Snr: -1 TeB: 0.0464844 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 90.0085 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.77:0:1.5) Pos(1)(1319.23:4:1.5) txPower: 20.9751 rxPower: -94.3536 dist: 2361.54 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0089 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9751 rxPower: -94.3536 Snr: -1 TeB: 0.090625 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 90.012 CalcRxPower ran for packet 169 (0->1) Pos(0)(3680.82:0:1.5) Pos(1)(1319.18:4:1.5) txPower: 20.9756 rxPower: -94.3534 dist: 2361.64 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 90.0125 on node 1 payload of packet 169 (0->1), dist: 2361 not decoded txPower: 20.9756 rxPower: -94.3534 Snr: -1 TeB: 0.113672 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 91 packet 170 sent (0->1), dist: 2389.08 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 91 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.54:0:1.5) Pos(1)(1305.46:4:1.5) txPower: 20.9862 rxPower: -94.4432 dist: 2389.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 91.0005 on node 1 payload of packet 170 (0->1), dist: 2389 not decoded txPower: 20.9862 rxPower: -94.4432 Snr: -1 TeB: 0.0738281 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 91.0009 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.55:0:1.5) Pos(1)(1305.45:4:1.5) txPower: 20.9614 rxPower: -94.4681 dist: 2389.11 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 91.002 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.57:0:1.5) Pos(1)(1305.43:4:1.5) txPower: 20.9889 rxPower: -94.4407 dist: 2389.14 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 91.0025 on node 1 payload of packet 170 (0->1), dist: 2389 not decoded txPower: 20.9889 rxPower: -94.4407 Snr: -1 TeB: 0.0429688 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 91.0027 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.58:0:1.5) Pos(1)(1305.42:4:1.5) txPower: 20.9973 rxPower: -94.4324 dist: 2389.16 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 91.0036 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.59:0:1.5) Pos(1)(1305.41:4:1.5) txPower: 20.9665 rxPower: -94.4633 dist: 2389.18 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 91.0041 on node 1 payload of packet 170 (0->1), dist: 2389 not decoded txPower: 20.9665 rxPower: -94.4633 Snr: -1 TeB: 0.0503906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 91.0102 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.68:0:1.5) Pos(1)(1305.32:4:1.5) txPower: 20.9516 rxPower: -94.4789 dist: 2389.37 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 91.0131 CalcRxPower ran for packet 170 (0->1) Pos(0)(3694.72:0:1.5) Pos(1)(1305.28:4:1.5) txPower: 20.9434 rxPower: -94.4874 dist: 2389.45 relSpeed: 27.78 size: 320 type DATA
++AtApp 92 packet 171 sent (0->1), dist: 2416.86 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 92 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.43:0:1.5) Pos(1)(1291.57:4:1.5) txPower: 20.9722 rxPower: -94.5576 dist: 2416.86 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 92.001 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.44:0:1.5) Pos(1)(1291.56:4:1.5) txPower: 21.0051 rxPower: -94.5249 dist: 2416.89 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0015 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 21.0051 rxPower: -94.5249 Snr: -1 TeB: 0.503906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 92.0025 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.46:0:1.5) Pos(1)(1291.54:4:1.5) txPower: 20.9633 rxPower: -94.5668 dist: 2416.93 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0029 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 20.9633 rxPower: -94.5668 Snr: -1 TeB: 0.0566406 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 92.0042 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.49:0:1.5) Pos(1)(1291.51:4:1.5) txPower: 20.9485 rxPower: -94.5818 dist: 2416.98 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0047 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 20.9485 rxPower: -94.5818 Snr: -1 TeB: 0.530469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 92.0064 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.52:0:1.5) Pos(1)(1291.48:4:1.5) txPower: 20.9568 rxPower: -94.5737 dist: 2417.04 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0069 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 20.9568 rxPower: -94.5737 Snr: -1 TeB: 0.0480469 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 92.011 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.58:0:1.5) Pos(1)(1291.42:4:1.5) txPower: 20.9733 rxPower: -94.5577 dist: 2417.17 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0115 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 20.9733 rxPower: -94.5577 Snr: -1 TeB: 0.0398437 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 92.0122 CalcRxPower ran for packet 171 (0->1) Pos(0)(3708.6:0:1.5) Pos(1)(1291.4:4:1.5) txPower: 20.9787 rxPower: -94.5524 dist: 2417.2 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 92.0127 on node 1 payload of packet 171 (0->1), dist: 2417 not decoded txPower: 20.9787 rxPower: -94.5524 Snr: -1 TeB: 0.0828125 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 93 packet 172 sent (0->1), dist: 2444.64 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 93 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.32:0:1.5) Pos(1)(1277.68:4:1.5) txPower: 20.9636 rxPower: -94.6655 dist: 2444.64 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 93.0009 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.33:0:1.5) Pos(1)(1277.67:4:1.5) txPower: 20.9802 rxPower: -94.649 dist: 2444.67 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 93.0014 on node 1 payload of packet 172 (0->1), dist: 2445 not decoded txPower: 20.9802 rxPower: -94.649 Snr: -1 TeB: 0.0710937 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 93.0023 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.35:0:1.5) Pos(1)(1277.65:4:1.5) txPower: 20.9662 rxPower: -94.6632 dist: 2444.71 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 93.0038 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.37:0:1.5) Pos(1)(1277.63:4:1.5) txPower: 20.9432 rxPower: -94.6863 dist: 2444.75 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 93.0059 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.4:0:1.5) Pos(1)(1277.6:4:1.5) txPower: 20.9999 rxPower: -94.6298 dist: 2444.81 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 93.0107 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.47:0:1.5) Pos(1)(1277.53:4:1.5) txPower: 20.9857 rxPower: -94.6445 dist: 2444.94 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 93.0112 on node 1 payload of packet 172 (0->1), dist: 2445 not decoded txPower: 20.9857 rxPower: -94.6445 Snr: -1 TeB: 0.0460938 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 93.0126 CalcRxPower ran for packet 172 (0->1) Pos(0)(3722.49:0:1.5) Pos(1)(1277.51:4:1.5) txPower: 20.9782 rxPower: -94.6521 dist: 2444.99 relSpeed: 27.78 size: 320 type DATA
++AtApp 94 packet 173 sent (0->1), dist: 2472.42 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 94 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.21:0:1.5) Pos(1)(1263.79:4:1.5) txPower: 20.9815 rxPower: -94.7458 dist: 2472.42 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 94.0011 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.22:0:1.5) Pos(1)(1263.78:4:1.5) txPower: 20.9891 rxPower: -94.7383 dist: 2472.45 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 94.0025 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.25:0:1.5) Pos(1)(1263.75:4:1.5) txPower: 20.9634 rxPower: -94.7641 dist: 2472.49 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 94.0045 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.27:0:1.5) Pos(1)(1263.73:4:1.5) txPower: 20.9734 rxPower: -94.7543 dist: 2472.55 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 94.0052 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.28:0:1.5) Pos(1)(1263.72:4:1.5) txPower: 20.9382 rxPower: -94.7896 dist: 2472.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 94.0057 on node 1 payload of packet 173 (0->1), dist: 2473 not decoded txPower: 20.9382 rxPower: -94.7896 Snr: -1 TeB: 0.500781 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 94.0099 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.35:0:1.5) Pos(1)(1263.65:4:1.5) txPower: 20.9616 rxPower: -94.7667 dist: 2472.7 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 94.0104 on node 1 payload of packet 173 (0->1), dist: 2473 not decoded txPower: 20.9616 rxPower: -94.7667 Snr: -1 TeB: 0.102734 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 94.011 CalcRxPower ran for packet 173 (0->1) Pos(0)(3736.36:0:1.5) Pos(1)(1263.64:4:1.5) txPower: 20.9776 rxPower: -94.7508 dist: 2472.73 relSpeed: 27.78 size: 320 type DATA
++AtApp 95 packet 174 sent (0->1), dist: 2500.2 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 95 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.1:0:1.5) Pos(1)(1249.9:4:1.5) txPower: 20.9518 rxPower: -94.8725 dist: 2500.2 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 95.0005 on node 1 payload of packet 174 (0->1), dist: 2501 not decoded txPower: 20.9518 rxPower: -94.8725 Snr: -1 TeB: 0.0746094 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 95.0007 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.11:0:1.5) Pos(1)(1249.89:4:1.5) txPower: 20.9723 rxPower: -94.8521 dist: 2500.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 95.0012 on node 1 payload of packet 174 (0->1), dist: 2501 not decoded txPower: 20.9723 rxPower: -94.8521 Snr: -1 TeB: 0.0878906 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 95.0017 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.12:0:1.5) Pos(1)(1249.88:4:1.5) txPower: 20.9907 rxPower: -94.8338 dist: 2500.25 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 95.0027 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.14:0:1.5) Pos(1)(1249.86:4:1.5) txPower: 20.962 rxPower: -94.8626 dist: 2500.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 95.0064 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.19:0:1.5) Pos(1)(1249.81:4:1.5) txPower: 20.9605 rxPower: -94.8644 dist: 2500.38 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 95.0091 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.23:0:1.5) Pos(1)(1249.77:4:1.5) txPower: 20.9672 rxPower: -94.858 dist: 2500.46 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 95.012 CalcRxPower ran for packet 174 (0->1) Pos(0)(3750.27:0:1.5) Pos(1)(1249.73:4:1.5) txPower: 20.962 rxPower: -94.8635 dist: 2500.54 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 95.0125 on node 1 payload of packet 174 (0->1), dist: 2501 not decoded txPower: 20.962 rxPower: -94.8635 Snr: -1 TeB: 0.0636719 relativeSpeed: 27.78 packetSizePhy: 320
++AtApp 96 packet 175 sent (0->1), dist: 2527.98 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 96 CalcRxPower ran for packet 175 (0->1) Pos(0)(3763.99:0:1.5) Pos(1)(1236.01:4:1.5) txPower: 20.923 rxPower: -94.9973 dist: 2527.98 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 96.001 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764:0:1.5) Pos(1)(1236:4:1.5) txPower: 20.9752 rxPower: -94.9452 dist: 2528.01 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 96.0018 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764.01:0:1.5) Pos(1)(1235.99:4:1.5) txPower: 20.9722 rxPower: -94.9483 dist: 2528.03 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 96.0022 on node 1 payload of packet 175 (0->1), dist: 2529 not decoded txPower: 20.9722 rxPower: -94.9483 Snr: -1 TeB: 0.134766 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 96.0032 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764.03:0:1.5) Pos(1)(1235.97:4:1.5) txPower: 20.9727 rxPower: -94.9479 dist: 2528.07 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 96.0041 on node 1 payload of packet 175 (0->1), dist: 2529 not decoded txPower: 20.9727 rxPower: -94.9479 Snr: -1 TeB: 0.495312 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 96.0061 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764.08:0:1.5) Pos(1)(1235.92:4:1.5) txPower: 20.9802 rxPower: -94.9407 dist: 2528.15 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 96.0066 on node 1 payload of packet 175 (0->1), dist: 2529 not decoded txPower: 20.9802 rxPower: -94.9407 Snr: -1 TeB: 0.507812 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 96.0129 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764.17:0:1.5) Pos(1)(1235.83:4:1.5) txPower: 20.9231 rxPower: -94.9985 dist: 2528.34 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 96.0134 on node 1 payload of packet 175 (0->1), dist: 2529 not decoded txPower: 20.9231 rxPower: -94.9985 Snr: -1 TeB: 0.0800781 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 96.0169 CalcRxPower ran for packet 175 (0->1) Pos(0)(3764.22:0:1.5) Pos(1)(1235.78:4:1.5) txPower: 20.9996 rxPower: -94.9224 dist: 2528.45 relSpeed: 27.78 size: 320 type DATA
++AtApp 97 packet 176 sent (0->1), dist: 2555.76 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 97 CalcRxPower ran for packet 176 (0->1) Pos(0)(3777.88:0:1.5) Pos(1)(1222.12:4:1.5) txPower: 20.9366 rxPower: -95.0786 dist: 2555.76 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 97.0009 CalcRxPower ran for packet 176 (0->1) Pos(0)(3777.89:0:1.5) Pos(1)(1222.11:4:1.5) txPower: 20.9527 rxPower: -95.0626 dist: 2555.79 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 97.0019 CalcRxPower ran for packet 176 (0->1) Pos(0)(3777.91:0:1.5) Pos(1)(1222.09:4:1.5) txPower: 20.9746 rxPower: -95.0408 dist: 2555.82 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 97.0024 on node 1 payload of packet 176 (0->1), dist: 2555 not decoded txPower: 20.9746 rxPower: -95.0408 Snr: -1 TeB: 0.509766 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 97.0041 CalcRxPower ran for packet 176 (0->1) Pos(0)(3777.94:0:1.5) Pos(1)(1222.06:4:1.5) txPower: 20.9833 rxPower: -95.0323 dist: 2555.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 97.0075 CalcRxPower ran for packet 176 (0->1) Pos(0)(3777.98:0:1.5) Pos(1)(1222.02:4:1.5) txPower: 20.9677 rxPower: -95.0482 dist: 2555.97 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 97.0105 CalcRxPower ran for packet 176 (0->1) Pos(0)(3778.03:0:1.5) Pos(1)(1221.97:4:1.5) txPower: 20.9433 rxPower: -95.0729 dist: 2556.05 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 97.0109 on node 1 payload of packet 176 (0->1), dist: 2557 not decoded txPower: 20.9433 rxPower: -95.0729 Snr: -1 TeB: 0.0992187 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 97.014 CalcRxPower ran for packet 176 (0->1) Pos(0)(3778.07:0:1.5) Pos(1)(1221.93:4:1.5) txPower: 20.9977 rxPower: -95.0189 dist: 2556.15 relSpeed: 27.78 size: 320 type DATA
++AtApp 98 packet 177 sent (0->1), dist: 2583.54 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 98 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.77:0:1.5) Pos(1)(1208.23:4:1.5) txPower: 20.9544 rxPower: -95.1547 dist: 2583.54 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 98.001 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.78:0:1.5) Pos(1)(1208.22:4:1.5) txPower: 20.9632 rxPower: -95.146 dist: 2583.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 98.0024 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.8:0:1.5) Pos(1)(1208.2:4:1.5) txPower: 20.9729 rxPower: -95.1365 dist: 2583.61 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 98.0037 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.82:0:1.5) Pos(1)(1208.18:4:1.5) txPower: 20.9702 rxPower: -95.1393 dist: 2583.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 98.0042 on node 1 payload of packet 177 (0->1), dist: 2583 not decoded txPower: 20.9702 rxPower: -95.1393 Snr: -1 TeB: 0.078125 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 98.007 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.87:0:1.5) Pos(1)(1208.13:4:1.5) txPower: 20.9712 rxPower: -95.1386 dist: 2583.74 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 98.0141 CalcRxPower ran for packet 177 (0->1) Pos(0)(3791.97:0:1.5) Pos(1)(1208.03:4:1.5) txPower: 20.9865 rxPower: -95.124 dist: 2583.93 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 98.0146 on node 1 payload of packet 177 (0->1), dist: 2583 not decoded txPower: 20.9865 rxPower: -95.124 Snr: -1 TeB: 0.505859 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 98.0206 CalcRxPower ran for packet 177 (0->1) Pos(0)(3792.06:0:1.5) Pos(1)(1207.94:4:1.5) txPower: 20.9616 rxPower: -95.1495 dist: 2584.11 relSpeed: 27.78 size: 320 type DATA
++AtApp 99 packet 178 sent (0->1), dist: 2611.32 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 99 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.66:0:1.5) Pos(1)(1194.34:4:1.5) txPower: 20.994 rxPower: -95.208 dist: 2611.32 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0007 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.67:0:1.5) Pos(1)(1194.33:4:1.5) txPower: 20.9868 rxPower: -95.2153 dist: 2611.34 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0015 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.68:0:1.5) Pos(1)(1194.32:4:1.5) txPower: 20.9868 rxPower: -95.2153 dist: 2611.36 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0032 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.71:0:1.5) Pos(1)(1194.29:4:1.5) txPower: 20.9627 rxPower: -95.2396 dist: 2611.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0052 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.73:0:1.5) Pos(1)(1194.27:4:1.5) txPower: 20.9686 rxPower: -95.2339 dist: 2611.47 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0119 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.83:0:1.5) Pos(1)(1194.17:4:1.5) txPower: 20.9907 rxPower: -95.2124 dist: 2611.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 99.0134 CalcRxPower ran for packet 178 (0->1) Pos(0)(3805.85:0:1.5) Pos(1)(1194.15:4:1.5) txPower: 20.9846 rxPower: -95.2187 dist: 2611.7 relSpeed: 27.78 size: 320 type DATA
++AtApp 100 packet 179 sent (0->1), dist: 2639.1 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 100 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.55:0:1.5) Pos(1)(1180.45:4:1.5) txPower: 20.9563 rxPower: -95.3377 dist: 2639.1 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 100.001 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.56:0:1.5) Pos(1)(1180.44:4:1.5) txPower: 20.9736 rxPower: -95.3205 dist: 2639.13 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 100.002 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.58:0:1.5) Pos(1)(1180.42:4:1.5) txPower: 20.9805 rxPower: -95.3137 dist: 2639.16 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 100.004 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.61:0:1.5) Pos(1)(1180.39:4:1.5) txPower: 20.9681 rxPower: -95.3262 dist: 2639.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiPhy::EndRx: -AtPhy 100.005 on node 1 payload of packet 179 (0->1), dist: 2639 not decoded txPower: 20.9681 rxPower: -95.3262 Snr: -1 TeB: 0.161719 relativeSpeed: 27.78 packetSizePhy: 320
+PhySimWifiUniformChannel::Send: +AtPhy 100.007 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.65:0:1.5) Pos(1)(1180.35:4:1.5) txPower: 20.9719 rxPower: -95.3227 dist: 2639.3 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 100.011 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.7:0:1.5) Pos(1)(1180.3:4:1.5) txPower: 20.9876 rxPower: -95.3073 dist: 2639.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 100.013 CalcRxPower ran for packet 179 (0->1) Pos(0)(3819.72:0:1.5) Pos(1)(1180.28:4:1.5) txPower: 20.9681 rxPower: -95.327 dist: 2639.45 relSpeed: 27.78 size: 320 type DATA
++AtApp 101 packet 180 sent (0->1), dist: 2666.88 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 101 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.44:0:1.5) Pos(1)(1166.56:4:1.5) txPower: 20.9348 rxPower: -95.4501 dist: 2666.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.001 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.45:0:1.5) Pos(1)(1166.55:4:1.5) txPower: 20.9599 rxPower: -95.4251 dist: 2666.91 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.002 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.47:0:1.5) Pos(1)(1166.53:4:1.5) txPower: 20.9472 rxPower: -95.4379 dist: 2666.93 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.003 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.48:0:1.5) Pos(1)(1166.52:4:1.5) txPower: 20.9433 rxPower: -95.4419 dist: 2666.97 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.007 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.54:0:1.5) Pos(1)(1166.46:4:1.5) txPower: 20.9503 rxPower: -95.4352 dist: 2667.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.012 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.61:0:1.5) Pos(1)(1166.39:4:1.5) txPower: 20.9657 rxPower: -95.4203 dist: 2667.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 101.015 CalcRxPower ran for packet 180 (0->1) Pos(0)(3833.65:0:1.5) Pos(1)(1166.35:4:1.5) txPower: 20.9948 rxPower: -95.3915 dist: 2667.31 relSpeed: 27.78 size: 320 type DATA
++AtApp 102 packet 181 sent (0->1), dist: 2694.66 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 102 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.33:0:1.5) Pos(1)(1152.67:4:1.5) txPower: 20.9704 rxPower: -95.5045 dist: 2694.66 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.001 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.34:0:1.5) Pos(1)(1152.66:4:1.5) txPower: 20.9565 rxPower: -95.5185 dist: 2694.68 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.002 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.36:0:1.5) Pos(1)(1152.64:4:1.5) txPower: 20.9815 rxPower: -95.4936 dist: 2694.71 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.004 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.38:0:1.5) Pos(1)(1152.62:4:1.5) txPower: 20.9652 rxPower: -95.51 dist: 2694.77 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.006 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.41:0:1.5) Pos(1)(1152.59:4:1.5) txPower: 20.9594 rxPower: -95.516 dist: 2694.82 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.01 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.47:0:1.5) Pos(1)(1152.53:4:1.5) txPower: 20.9265 rxPower: -95.5493 dist: 2694.94 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 102.016 CalcRxPower ran for packet 181 (0->1) Pos(0)(3847.56:0:1.5) Pos(1)(1152.44:4:1.5) txPower: 20.9642 rxPower: -95.5122 dist: 2695.12 relSpeed: 27.78 size: 320 type DATA
++AtApp 103 packet 182 sent (0->1), dist: 2722.44 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 103 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.22:0:1.5) Pos(1)(1138.78:4:1.5) txPower: 20.9525 rxPower: -95.6115 dist: 2722.44 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.001 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.23:0:1.5) Pos(1)(1138.77:4:1.5) txPower: 20.9859 rxPower: -95.5782 dist: 2722.47 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.002 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.25:0:1.5) Pos(1)(1138.75:4:1.5) txPower: 20.9814 rxPower: -95.5828 dist: 2722.5 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.004 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.28:0:1.5) Pos(1)(1138.72:4:1.5) txPower: 20.966 rxPower: -95.5984 dist: 2722.56 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.005 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.29:0:1.5) Pos(1)(1138.71:4:1.5) txPower: 20.9646 rxPower: -95.5999 dist: 2722.59 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.008 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.33:0:1.5) Pos(1)(1138.67:4:1.5) txPower: 20.9965 rxPower: -95.5682 dist: 2722.67 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 103.013 CalcRxPower ran for packet 182 (0->1) Pos(0)(3861.4:0:1.5) Pos(1)(1138.6:4:1.5) txPower: 20.9743 rxPower: -95.5908 dist: 2722.79 relSpeed: 27.78 size: 320 type DATA
++AtApp 104 packet 183 sent (0->1), dist: 2750.22 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 104 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.11:0:1.5) Pos(1)(1124.89:4:1.5) txPower: 20.9555 rxPower: -95.6967 dist: 2750.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.001 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.12:0:1.5) Pos(1)(1124.88:4:1.5) txPower: 20.9955 rxPower: -95.6567 dist: 2750.24 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.002 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.14:0:1.5) Pos(1)(1124.86:4:1.5) txPower: 20.9665 rxPower: -95.6859 dist: 2750.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.003 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.15:0:1.5) Pos(1)(1124.85:4:1.5) txPower: 20.9797 rxPower: -95.6727 dist: 2750.3 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.007 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.2:0:1.5) Pos(1)(1124.8:4:1.5) txPower: 20.9937 rxPower: -95.6591 dist: 2750.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.013 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.29:0:1.5) Pos(1)(1124.71:4:1.5) txPower: 20.978 rxPower: -95.6753 dist: 2750.58 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 104.017 CalcRxPower ran for packet 183 (0->1) Pos(0)(3875.34:0:1.5) Pos(1)(1124.66:4:1.5) txPower: 20.9716 rxPower: -95.682 dist: 2750.68 relSpeed: 27.78 size: 320 type DATA
++AtApp 105 packet 184 sent (0->1), dist: 2778 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 105 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889:0:1.5) Pos(1)(1111:4:1.5) txPower: 20.9718 rxPower: -95.7676 dist: 2778 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.001 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.01:0:1.5) Pos(1)(1110.99:4:1.5) txPower: 20.9706 rxPower: -95.769 dist: 2778.03 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.002 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.03:0:1.5) Pos(1)(1110.97:4:1.5) txPower: 20.9889 rxPower: -95.7508 dist: 2778.06 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.003 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.04:0:1.5) Pos(1)(1110.96:4:1.5) txPower: 20.9742 rxPower: -95.7655 dist: 2778.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.006 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.08:0:1.5) Pos(1)(1110.92:4:1.5) txPower: 20.9815 rxPower: -95.7584 dist: 2778.16 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.007 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.09:0:1.5) Pos(1)(1110.91:4:1.5) txPower: 20.9813 rxPower: -95.7588 dist: 2778.19 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 105.01 CalcRxPower ran for packet 184 (0->1) Pos(0)(3889.14:0:1.5) Pos(1)(1110.86:4:1.5) txPower: 20.96 rxPower: -95.7804 dist: 2778.29 relSpeed: 27.78 size: 320 type DATA
++AtApp 106 packet 185 sent (0->1), dist: 2805.78 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 106 CalcRxPower ran for packet 185 (0->1) Pos(0)(3902.89:0:1.5) Pos(1)(1097.11:4:1.5) txPower: 20.9761 rxPower: -95.8498 dist: 2805.78 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.001 CalcRxPower ran for packet 185 (0->1) Pos(0)(3902.9:0:1.5) Pos(1)(1097.1:4:1.5) txPower: 20.9974 rxPower: -95.8286 dist: 2805.81 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.002 CalcRxPower ran for packet 185 (0->1) Pos(0)(3902.92:0:1.5) Pos(1)(1097.08:4:1.5) txPower: 20.9672 rxPower: -95.8589 dist: 2805.84 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.004 CalcRxPower ran for packet 185 (0->1) Pos(0)(3902.94:0:1.5) Pos(1)(1097.06:4:1.5) txPower: 20.9835 rxPower: -95.8427 dist: 2805.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.006 CalcRxPower ran for packet 185 (0->1) Pos(0)(3902.97:0:1.5) Pos(1)(1097.03:4:1.5) txPower: 21.003 rxPower: -95.8234 dist: 2805.95 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.008 CalcRxPower ran for packet 185 (0->1) Pos(0)(3903:0:1.5) Pos(1)(1097:4:1.5) txPower: 20.9719 rxPower: -95.8547 dist: 2806 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 106.015 CalcRxPower ran for packet 185 (0->1) Pos(0)(3903.1:0:1.5) Pos(1)(1096.9:4:1.5) txPower: 20.9852 rxPower: -95.842 dist: 2806.2 relSpeed: 27.78 size: 320 type DATA
++AtApp 107 packet 186 sent (0->1), dist: 2833.56 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 107 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.78:0:1.5) Pos(1)(1083.22:4:1.5) txPower: 20.9624 rxPower: -95.949 dist: 2833.56 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.001 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.79:0:1.5) Pos(1)(1083.21:4:1.5) txPower: 20.9663 rxPower: -95.9452 dist: 2833.59 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.002 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.81:0:1.5) Pos(1)(1083.19:4:1.5) txPower: 20.9753 rxPower: -95.9364 dist: 2833.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.003 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.82:0:1.5) Pos(1)(1083.18:4:1.5) txPower: 20.9797 rxPower: -95.9321 dist: 2833.65 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.004 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.84:0:1.5) Pos(1)(1083.16:4:1.5) txPower: 20.9876 rxPower: -95.9243 dist: 2833.69 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.009 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.9:0:1.5) Pos(1)(1083.1:4:1.5) txPower: 20.9736 rxPower: -95.9386 dist: 2833.81 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 107.013 CalcRxPower ran for packet 186 (0->1) Pos(0)(3916.96:0:1.5) Pos(1)(1083.04:4:1.5) txPower: 20.9479 rxPower: -95.9647 dist: 2833.93 relSpeed: 27.78 size: 320 type DATA
++AtApp 108 packet 187 sent (0->1), dist: 2861.34 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 108 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.67:0:1.5) Pos(1)(1069.33:4:1.5) txPower: 20.9672 rxPower: -96.029 dist: 2861.34 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.001 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.68:0:1.5) Pos(1)(1069.32:4:1.5) txPower: 20.9489 rxPower: -96.0474 dist: 2861.37 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.002 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.7:0:1.5) Pos(1)(1069.3:4:1.5) txPower: 20.9404 rxPower: -96.056 dist: 2861.4 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.004 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.73:0:1.5) Pos(1)(1069.27:4:1.5) txPower: 20.9823 rxPower: -96.0143 dist: 2861.46 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.008 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.78:0:1.5) Pos(1)(1069.22:4:1.5) txPower: 20.9625 rxPower: -96.0344 dist: 2861.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.009 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.8:0:1.5) Pos(1)(1069.2:4:1.5) txPower: 20.9625 rxPower: -96.0345 dist: 2861.6 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 108.016 CalcRxPower ran for packet 187 (0->1) Pos(0)(3930.89:0:1.5) Pos(1)(1069.11:4:1.5) txPower: 20.9453 rxPower: -96.0523 dist: 2861.79 relSpeed: 27.78 size: 320 type DATA
++AtApp 109 packet 188 sent (0->1), dist: 2889.12 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 109 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.56:0:1.5) Pos(1)(1055.44:4:1.5) txPower: 20.9916 rxPower: -96.0885 dist: 2889.12 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.001 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.57:0:1.5) Pos(1)(1055.43:4:1.5) txPower: 20.9355 rxPower: -96.1447 dist: 2889.15 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.002 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.59:0:1.5) Pos(1)(1055.41:4:1.5) txPower: 20.9535 rxPower: -96.1268 dist: 2889.18 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.004 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.61:0:1.5) Pos(1)(1055.39:4:1.5) txPower: 20.9858 rxPower: -96.0947 dist: 2889.23 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.006 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.64:0:1.5) Pos(1)(1055.36:4:1.5) txPower: 20.9765 rxPower: -96.1041 dist: 2889.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.01 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.7:0:1.5) Pos(1)(1055.3:4:1.5) txPower: 20.971 rxPower: -96.11 dist: 2889.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 109.012 CalcRxPower ran for packet 188 (0->1) Pos(0)(3944.73:0:1.5) Pos(1)(1055.27:4:1.5) txPower: 20.9877 rxPower: -96.0934 dist: 2889.45 relSpeed: 27.78 size: 320 type DATA
++AtApp 110 packet 189 sent (0->1), dist: 2916.9 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 110 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.45:0:1.5) Pos(1)(1041.55:4:1.5) txPower: 20.9791 rxPower: -96.1842 dist: 2916.9 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.001 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.46:0:1.5) Pos(1)(1041.54:4:1.5) txPower: 20.9686 rxPower: -96.1947 dist: 2916.93 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.002 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.48:0:1.5) Pos(1)(1041.52:4:1.5) txPower: 20.9621 rxPower: -96.2013 dist: 2916.95 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.004 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.5:0:1.5) Pos(1)(1041.5:4:1.5) txPower: 20.9551 rxPower: -96.2085 dist: 2917.01 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.006 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.54:0:1.5) Pos(1)(1041.46:4:1.5) txPower: 20.9988 rxPower: -96.165 dist: 2917.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.009 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.57:0:1.5) Pos(1)(1041.43:4:1.5) txPower: 20.9235 rxPower: -96.2405 dist: 2917.15 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 110.012 CalcRxPower ran for packet 189 (0->1) Pos(0)(3958.62:0:1.5) Pos(1)(1041.38:4:1.5) txPower: 21.002 rxPower: -96.1623 dist: 2917.24 relSpeed: 27.78 size: 320 type DATA
++AtApp 111 packet 190 sent (0->1), dist: 2944.68 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 111 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.34:0:1.5) Pos(1)(1027.66:4:1.5) txPower: 20.9581 rxPower: -96.2874 dist: 2944.68 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.001 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.35:0:1.5) Pos(1)(1027.65:4:1.5) txPower: 20.9745 rxPower: -96.2712 dist: 2944.71 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.002 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.36:0:1.5) Pos(1)(1027.64:4:1.5) txPower: 20.9382 rxPower: -96.3076 dist: 2944.73 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.004 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.39:0:1.5) Pos(1)(1027.61:4:1.5) txPower: 20.9845 rxPower: -96.2614 dist: 2944.79 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.006 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.43:0:1.5) Pos(1)(1027.57:4:1.5) txPower: 20.9766 rxPower: -96.2695 dist: 2944.86 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.01 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.49:0:1.5) Pos(1)(1027.51:4:1.5) txPower: 20.9796 rxPower: -96.2669 dist: 2944.97 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 111.013 CalcRxPower ran for packet 190 (0->1) Pos(0)(3972.52:0:1.5) Pos(1)(1027.48:4:1.5) txPower: 20.9546 rxPower: -96.292 dist: 2945.04 relSpeed: 27.78 size: 320 type DATA
++AtApp 112 packet 191 sent (0->1), dist: 2972.46 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 112 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.23:0:1.5) Pos(1)(1013.77:4:1.5) txPower: 20.9673 rxPower: -96.3598 dist: 2972.46 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.001 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.24:0:1.5) Pos(1)(1013.76:4:1.5) txPower: 20.9717 rxPower: -96.3555 dist: 2972.49 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.002 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.26:0:1.5) Pos(1)(1013.74:4:1.5) txPower: 20.9827 rxPower: -96.3446 dist: 2972.51 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.004 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.28:0:1.5) Pos(1)(1013.72:4:1.5) txPower: 20.9721 rxPower: -96.3553 dist: 2972.56 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.006 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.32:0:1.5) Pos(1)(1013.68:4:1.5) txPower: 21.0062 rxPower: -96.3214 dist: 2972.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.01 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.37:0:1.5) Pos(1)(1013.63:4:1.5) txPower: 20.9551 rxPower: -96.3729 dist: 2972.75 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 112.013 CalcRxPower ran for packet 191 (0->1) Pos(0)(3986.41:0:1.5) Pos(1)(1013.59:4:1.5) txPower: 20.9675 rxPower: -96.3607 dist: 2972.82 relSpeed: 27.78 size: 320 type DATA
++AtApp 113 packet 192 sent (0->1), dist: 3000.24 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 113 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.12:0:1.5) Pos(1)(999.88:4:1.5) txPower: 20.9769 rxPower: -96.4311 dist: 3000.24 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.001 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.13:0:1.5) Pos(1)(999.87:4:1.5) txPower: 20.9773 rxPower: -96.4307 dist: 3000.26 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.001 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.14:0:1.5) Pos(1)(999.861:4:1.5) txPower: 20.9779 rxPower: -96.4301 dist: 3000.28 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.003 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.16:0:1.5) Pos(1)(999.837:4:1.5) txPower: 20.9675 rxPower: -96.4407 dist: 3000.33 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.005 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.19:0:1.5) Pos(1)(999.808:4:1.5) txPower: 20.9801 rxPower: -96.4283 dist: 3000.39 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.006 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.2:0:1.5) Pos(1)(999.797:4:1.5) txPower: 20.974 rxPower: -96.4345 dist: 3000.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 113.013 CalcRxPower ran for packet 192 (0->1) Pos(0)(4000.3:0:1.5) Pos(1)(999.699:4:1.5) txPower: 20.9652 rxPower: -96.4438 dist: 3000.6 relSpeed: 27.78 size: 320 type DATA
++AtApp 114 packet 193 sent (0->1), dist: 3028.02 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 114 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.01:0:1.5) Pos(1)(985.99:4:1.5) txPower: 20.952 rxPower: -96.536 dist: 3028.02 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.001 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.02:0:1.5) Pos(1)(985.976:4:1.5) txPower: 20.9819 rxPower: -96.5062 dist: 3028.05 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.002 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.04:0:1.5) Pos(1)(985.956:4:1.5) txPower: 20.9961 rxPower: -96.4921 dist: 3028.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.004 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.06:0:1.5) Pos(1)(985.939:4:1.5) txPower: 20.9418 rxPower: -96.5465 dist: 3028.12 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.007 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.11:0:1.5) Pos(1)(985.894:4:1.5) txPower: 20.941 rxPower: -96.5475 dist: 3028.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.014 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.2:0:1.5) Pos(1)(985.797:4:1.5) txPower: 20.9676 rxPower: -96.5215 dist: 3028.41 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 114.015 CalcRxPower ran for packet 193 (0->1) Pos(0)(4014.22:0:1.5) Pos(1)(985.781:4:1.5) txPower: 20.9698 rxPower: -96.5194 dist: 3028.44 relSpeed: 27.78 size: 320 type DATA
++AtApp 115 packet 194 sent (0->1), dist: 3055.8 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 115 CalcRxPower ran for packet 194 (0->1) Pos(0)(4027.9:0:1.5) Pos(1)(972.1:4:1.5) txPower: 20.963 rxPower: -96.6043 dist: 3055.8 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.001 CalcRxPower ran for packet 194 (0->1) Pos(0)(4027.91:0:1.5) Pos(1)(972.09:4:1.5) txPower: 20.9602 rxPower: -96.6072 dist: 3055.82 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.002 CalcRxPower ran for packet 194 (0->1) Pos(0)(4027.92:0:1.5) Pos(1)(972.077:4:1.5) txPower: 20.9456 rxPower: -96.6219 dist: 3055.85 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.003 CalcRxPower ran for packet 194 (0->1) Pos(0)(4027.94:0:1.5) Pos(1)(972.062:4:1.5) txPower: 20.991 rxPower: -96.5765 dist: 3055.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.004 CalcRxPower ran for packet 194 (0->1) Pos(0)(4027.96:0:1.5) Pos(1)(972.04:4:1.5) txPower: 20.9733 rxPower: -96.5944 dist: 3055.92 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.009 CalcRxPower ran for packet 194 (0->1) Pos(0)(4028.02:0:1.5) Pos(1)(971.981:4:1.5) txPower: 20.9499 rxPower: -96.6181 dist: 3056.04 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 115.01 CalcRxPower ran for packet 194 (0->1) Pos(0)(4028.04:0:1.5) Pos(1)(971.958:4:1.5) txPower: 20.9735 rxPower: -96.5946 dist: 3056.09 relSpeed: 27.78 size: 320 type DATA
++AtApp 116 packet 195 sent (0->1), dist: 3083.58 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 116 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.79:0:1.5) Pos(1)(958.21:4:1.5) txPower: 20.9705 rxPower: -96.6754 dist: 3083.58 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.001 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.8:0:1.5) Pos(1)(958.199:4:1.5) txPower: 20.9952 rxPower: -96.6508 dist: 3083.61 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.002 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.81:0:1.5) Pos(1)(958.186:4:1.5) txPower: 20.9791 rxPower: -96.667 dist: 3083.63 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.003 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.84:0:1.5) Pos(1)(958.163:4:1.5) txPower: 20.98 rxPower: -96.6662 dist: 3083.68 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.006 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.88:0:1.5) Pos(1)(958.124:4:1.5) txPower: 20.9711 rxPower: -96.6753 dist: 3083.75 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.011 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.94:0:1.5) Pos(1)(958.062:4:1.5) txPower: 20.9857 rxPower: -96.661 dist: 3083.88 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 116.013 CalcRxPower ran for packet 195 (0->1) Pos(0)(4041.96:0:1.5) Pos(1)(958.035:4:1.5) txPower: 20.9772 rxPower: -96.6698 dist: 3083.93 relSpeed: 27.78 size: 320 type DATA
++AtApp 117 packet 196 sent (0->1), dist: 3111.36 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 117 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.68:0:1.5) Pos(1)(944.32:4:1.5) txPower: 20.9723 rxPower: -96.7516 dist: 3111.36 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.001 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.69:0:1.5) Pos(1)(944.306:4:1.5) txPower: 20.9571 rxPower: -96.7668 dist: 3111.39 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.002 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.71:0:1.5) Pos(1)(944.288:4:1.5) txPower: 20.985 rxPower: -96.739 dist: 3111.43 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.004 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.73:0:1.5) Pos(1)(944.269:4:1.5) txPower: 20.943 rxPower: -96.7811 dist: 3111.46 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.006 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.76:0:1.5) Pos(1)(944.237:4:1.5) txPower: 20.9926 rxPower: -96.7317 dist: 3111.53 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.012 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.85:0:1.5) Pos(1)(944.155:4:1.5) txPower: 20.9747 rxPower: -96.75 dist: 3111.69 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 117.019 CalcRxPower ran for packet 196 (0->1) Pos(0)(4055.95:0:1.5) Pos(1)(944.054:4:1.5) txPower: 20.9251 rxPower: -96.8003 dist: 3111.89 relSpeed: 27.78 size: 320 type DATA
++AtApp 118 packet 197 sent (0->1), dist: 3139.14 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 118 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.57:0:1.5) Pos(1)(930.43:4:1.5) txPower: 20.968 rxPower: -96.833 dist: 3139.14 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.001 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.58:0:1.5) Pos(1)(930.416:4:1.5) txPower: 20.9413 rxPower: -96.8598 dist: 3139.17 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.002 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.6:0:1.5) Pos(1)(930.4:4:1.5) txPower: 20.9632 rxPower: -96.838 dist: 3139.2 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.003 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.62:0:1.5) Pos(1)(930.384:4:1.5) txPower: 20.9761 rxPower: -96.8252 dist: 3139.23 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.004 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.63:0:1.5) Pos(1)(930.37:4:1.5) txPower: 20.9381 rxPower: -96.8633 dist: 3139.26 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.009 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.7:0:1.5) Pos(1)(930.302:4:1.5) txPower: 20.9966 rxPower: -96.8051 dist: 3139.4 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 118.012 CalcRxPower ran for packet 197 (0->1) Pos(0)(4069.73:0:1.5) Pos(1)(930.266:4:1.5) txPower: 20.9721 rxPower: -96.8299 dist: 3139.47 relSpeed: 27.78 size: 320 type DATA
++AtApp 119 packet 198 sent (0->1), dist: 3166.92 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 119 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.46:0:1.5) Pos(1)(916.54:4:1.5) txPower: 20.9845 rxPower: -96.8931 dist: 3166.92 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.001 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.47:0:1.5) Pos(1)(916.53:4:1.5) txPower: 20.9621 rxPower: -96.9155 dist: 3166.94 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.002 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.48:0:1.5) Pos(1)(916.519:4:1.5) txPower: 20.9936 rxPower: -96.8841 dist: 3166.96 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.003 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.51:0:1.5) Pos(1)(916.494:4:1.5) txPower: 20.9795 rxPower: -96.8983 dist: 3167.02 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.006 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.54:0:1.5) Pos(1)(916.461:4:1.5) txPower: 20.9376 rxPower: -96.9404 dist: 3167.08 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.011 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.61:0:1.5) Pos(1)(916.393:4:1.5) txPower: 20.9853 rxPower: -96.8931 dist: 3167.22 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 119.012 CalcRxPower ran for packet 198 (0->1) Pos(0)(4083.63:0:1.5) Pos(1)(916.367:4:1.5) txPower: 20.9595 rxPower: -96.919 dist: 3167.27 relSpeed: 27.78 size: 320 type DATA
++AtApp 120 packet 199 sent (0->1), dist: 3194.7 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 120 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.35:0:1.5) Pos(1)(902.65:4:1.5) txPower: 20.9801 rxPower: -96.9733 dist: 3194.7 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.001 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.36:0:1.5) Pos(1)(902.641:4:1.5) txPower: 20.9629 rxPower: -96.9906 dist: 3194.72 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.002 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.37:0:1.5) Pos(1)(902.627:4:1.5) txPower: 20.9901 rxPower: -96.9635 dist: 3194.75 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.004 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.41:0:1.5) Pos(1)(902.594:4:1.5) txPower: 20.9647 rxPower: -96.9891 dist: 3194.81 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.008 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.46:0:1.5) Pos(1)(902.543:4:1.5) txPower: 20.9621 rxPower: -96.9919 dist: 3194.92 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.014 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.54:0:1.5) Pos(1)(902.458:4:1.5) txPower: 20.9855 rxPower: -96.969 dist: 3195.09 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 120.018 CalcRxPower ran for packet 199 (0->1) Pos(0)(4097.6:0:1.5) Pos(1)(902.396:4:1.5) txPower: 20.9657 rxPower: -96.9891 dist: 3195.21 relSpeed: 27.78 size: 320 type DATA
++AtApp 121 packet 200 sent (0->1), dist: 3222.48 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 121 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.24:0:1.5) Pos(1)(888.76:4:1.5) txPower: 20.9897 rxPower: -97.0389 dist: 3222.48 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.001 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.25:0:1.5) Pos(1)(888.749:4:1.5) txPower: 20.9676 rxPower: -97.0611 dist: 3222.51 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.002 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.27:0:1.5) Pos(1)(888.731:4:1.5) txPower: 20.9587 rxPower: -97.0701 dist: 3222.54 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.003 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.28:0:1.5) Pos(1)(888.717:4:1.5) txPower: 20.9767 rxPower: -97.0521 dist: 3222.57 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.006 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.32:0:1.5) Pos(1)(888.682:4:1.5) txPower: 20.97 rxPower: -97.059 dist: 3222.64 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.013 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.42:0:1.5) Pos(1)(888.584:4:1.5) txPower: 21.0004 rxPower: -97.0292 dist: 3222.84 relSpeed: 27.78 size: 320 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 121.016 CalcRxPower ran for packet 200 (0->1) Pos(0)(4111.46:0:1.5) Pos(1)(888.535:4:1.5) txPower: 20.9637 rxPower: -97.0661 dist: 3222.93 relSpeed: 27.78 size: 320 type DATA
++AtApp 122 packet 201 sent (0->1), dist: 3250.26 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 122 CalcRxPower ran for packet 202 (0->ff:ff:ff:ff:ff:ff) Pos(0)(4125.13:0:1.5) txPower: 21.0516 size: 64 type DATA
+PhySimWifiUniformChannel::Send: +AtPhy 123 CalcRxPower ran for packet 203 (0->ff:ff:ff:ff:ff:ff) Pos(0)(4139.02:0:1.5) txPower: 20.9226 size: 64 type DATA
++AtApp 123 packet 204 sent (0->1), dist: 3278.04 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 124 CalcRxPower ran for packet 205 (0->ff:ff:ff:ff:ff:ff) Pos(0)(4152.91:0:1.5) txPower: 20.9556 size: 64 type DATA
++AtApp 124 packet 206 sent (0->1), dist: 3305.82 relSpeed: 27.78 txSizeNet: 256
+PhySimWifiUniformChannel::Send: +AtPhy 125 CalcRxPower ran for packet 207 (0->ff:ff:ff:ff:ff:ff) Pos(0)(4166.8:0:1.5) txPower: 20.9613 size: 64 type DATA
++AtApp 125 packet 208 sent (0->1), dist: 3333.6 relSpeed: 27.78 txSizeNet: 256
+-> At 126s packet 201 dropped in ARP cache InstanceTypeId: ns3::ArpCache
+-> At 126s packet 204 dropped in ARP cache InstanceTypeId: ns3::ArpCache
+-> At 126s packet 206 dropped in ARP cache InstanceTypeId: ns3::ArpCache
++AtApp 126 packet 209 sent (0->1), dist: 3361.38 relSpeed: 27.78 txSizeNet: 256
++AtApp 127 packet 210 sent (0->1), dist: 3389.16 relSpeed: 27.78 txSizeNet: 256
++AtApp 128 packet 211 sent (0->1), dist: 3416.94 relSpeed: 27.78 txSizeNet: 256
++AtApp 129 packet 212 sent (0->1), dist: 3444.72 relSpeed: 27.78 txSizeNet: 256
++AtApp 130 packet 213 sent (0->1), dist: 3472.5 relSpeed: 27.78 txSizeNet: 256
++AtApp 131 packet 214 sent (0->1), dist: 3500.28 relSpeed: 27.78 txSizeNet: 256
++AtApp 132 packet 215 sent (0->1), dist: 3528.06 relSpeed: 27.78 txSizeNet: 256
++AtApp 133 packet 216 sent (0->1), dist: 3555.84 relSpeed: 27.78 txSizeNet: 256
++AtApp 134 packet 217 sent (0->1), dist: 3583.62 relSpeed: 27.78 txSizeNet: 256
++AtApp 135 packet 218 sent (0->1), dist: 3611.4 relSpeed: 27.78 txSizeNet: 256
++AtApp 136 packet 219 sent (0->1), dist: 3639.18 relSpeed: 27.78 txSizeNet: 256
++AtApp 137 packet 220 sent (0->1), dist: 3666.96 relSpeed: 27.78 txSizeNet: 256
++AtApp 138 packet 221 sent (0->1), dist: 3694.74 relSpeed: 27.78 txSizeNet: 256
++AtApp 139 packet 222 sent (0->1), dist: 3722.52 relSpeed: 27.78 txSizeNet: 256
++AtApp 140 packet 223 sent (0->1), dist: 3750.3 relSpeed: 27.78 txSizeNet: 256
++AtApp 141 packet 224 sent (0->1), dist: 3778.08 relSpeed: 27.78 txSizeNet: 256
++AtApp 142 packet 225 sent (0->1), dist: 3805.86 relSpeed: 27.78 txSizeNet: 256
++AtApp 143 packet 226 sent (0->1), dist: 3833.64 relSpeed: 27.78 txSizeNet: 256
++AtApp 144 packet 227 sent (0->1), dist: 3861.42 relSpeed: 27.78 txSizeNet: 256
++AtApp 145 packet 228 sent (0->1), dist: 3889.2 relSpeed: 27.78 txSizeNet: 256
++AtApp 146 packet 229 sent (0->1), dist: 3916.98 relSpeed: 27.78 txSizeNet: 256
++AtApp 147 packet 230 sent (0->1), dist: 3944.76 relSpeed: 27.78 txSizeNet: 256
++AtApp 148 packet 231 sent (0->1), dist: 3972.54 relSpeed: 27.78 txSizeNet: 256
++AtApp 149 packet 232 sent (0->1), dist: 4000.32 relSpeed: 27.78 txSizeNet: 256
++AtApp 150 packet 233 sent (0->1), dist: 4028.1 relSpeed: 27.78 txSizeNet: 256
++AtApp 151 packet 234 sent (0->1), dist: 4055.88 relSpeed: 27.78 txSizeNet: 256
++AtApp 152 packet 235 sent (0->1), dist: 4083.66 relSpeed: 27.78 txSizeNet: 256
++AtApp 153 packet 236 sent (0->1), dist: 4111.44 relSpeed: 27.78 txSizeNet: 256
++AtApp 154 packet 237 sent (0->1), dist: 4139.22 relSpeed: 27.78 txSizeNet: 256
++AtApp 155 packet 238 sent (0->1), dist: 4167 relSpeed: 27.78 txSizeNet: 256
++AtApp 156 packet 239 sent (0->1), dist: 4194.78 relSpeed: 27.78 txSizeNet: 256
++AtApp 157 packet 240 sent (0->1), dist: 4222.56 relSpeed: 27.78 txSizeNet: 256
++AtApp 158 packet 241 sent (0->1), dist: 4250.34 relSpeed: 27.78 txSizeNet: 256
++AtApp 159 packet 242 sent (0->1), dist: 4278.12 relSpeed: 27.78 txSizeNet: 256
++AtApp 160 packet 243 sent (0->1), dist: 4305.9 relSpeed: 27.78 txSizeNet: 256
++AtApp 161 packet 244 sent (0->1), dist: 4333.68 relSpeed: 27.78 txSizeNet: 256
++AtApp 162 packet 245 sent (0->1), dist: 4361.46 relSpeed: 27.78 txSizeNet: 256
++AtApp 163 packet 246 sent (0->1), dist: 4389.24 relSpeed: 27.78 txSizeNet: 256
++AtApp 164 packet 247 sent (0->1), dist: 4417.02 relSpeed: 27.78 txSizeNet: 256
++AtApp 165 packet 248 sent (0->1), dist: 4444.8 relSpeed: 27.78 txSizeNet: 256
++AtApp 166 packet 249 sent (0->1), dist: 4472.58 relSpeed: 27.78 txSizeNet: 256
++AtApp 167 packet 250 sent (0->1), dist: 4500.36 relSpeed: 27.78 txSizeNet: 256
++AtApp 168 packet 251 sent (0->1), dist: 4528.14 relSpeed: 27.78 txSizeNet: 256
++AtApp 169 packet 252 sent (0->1), dist: 4555.92 relSpeed: 27.78 txSizeNet: 256
++AtApp 170 packet 253 sent (0->1), dist: 4583.7 relSpeed: 27.78 txSizeNet: 256
++AtApp 171 packet 254 sent (0->1), dist: 4611.48 relSpeed: 27.78 txSizeNet: 256
++AtApp 172 packet 255 sent (0->1), dist: 4639.26 relSpeed: 27.78 txSizeNet: 256
++AtApp 173 packet 256 sent (0->1), dist: 4667.04 relSpeed: 27.78 txSizeNet: 256
++AtApp 174 packet 257 sent (0->1), dist: 4694.82 relSpeed: 27.78 txSizeNet: 256
++AtApp 175 packet 258 sent (0->1), dist: 4722.6 relSpeed: 27.78 txSizeNet: 256
++AtApp 176 packet 259 sent (0->1), dist: 4750.38 relSpeed: 27.78 txSizeNet: 256
++AtApp 177 packet 260 sent (0->1), dist: 4778.16 relSpeed: 27.78 txSizeNet: 256
++AtApp 178 packet 261 sent (0->1), dist: 4805.94 relSpeed: 27.78 txSizeNet: 256
++AtApp 179 packet 262 sent (0->1), dist: 4833.72 relSpeed: 27.78 txSizeNet: 256
